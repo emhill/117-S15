@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Experiences | CSCI 117 Spring 2015 </title>
+  <title> Programming WODs | CSCI 117 Spring 2015 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -54,122 +54,172 @@
 
 
   <div class="container">
-  <h1>Experiential Learning <small>in module order</small></h1>
+  <h1><small>Module: </small> Programming WODs </h1>
+  <p><p>This is the first module in this sample template.</p>
+</p>
 </div>
+
 
 <div class="section-background-1">
   <div class="container">
-    <h2><small>Module:</small> <a href="/117-S15/modules/foo/index.html">Learn to Foo</a></h2>
+    <h2>Learning Outcomes</h2>
 
-    
-
-    <div class="row">
     
       
-       <div class="col-sm-3">
-         <div class="thumbnail">
-           <h4><a href="/117-S15/morea/foo/experience.html">Foo construction</a></h4>
-             <p>Practice construction of Foo instances.</p>
+      <h3>Construct Foos</h3>
+      <p>
+        
+      </p>
+      <p>The student will be able to quickly and correctly construct instances of Foos.</p>
 
-             <p>
-             
-             </p>
-         </div>
-       </div>
-       
-       
-      
-       
     
-    </div>
+      
+      <h3>Design and create Bars</h3>
+      <p>
+        
+      </p>
+      <p>This is the second learning outcome in this sample template.</p>
+
+    
+
   </div>
 </div>
+
+
+
+
 
 <div class="section-background-2">
   <div class="container">
-    <h2><small>Module:</small> <a href="/117-S15/modules/bar/index.html">Learn to Bar</a></h2>
-
-    
+  <h2>Readings</h2>
 
     <div class="row">
-    
       
-       <div class="col-sm-3">
-         <div class="thumbnail">
-           <h4><a href="/117-S15/morea/bar/experience.html">Experience the Bar</a></h4>
-             <p>The second experiential learning event.</p>
+        
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <h4><a href="/117-S15/morea/WOD-intro/reading-athletic-software-engineering.html">WODs: Program like an Athlete</a></h4>
+            <p>An ‘athletic’ approach to programming using Workouts of the Day.</p>
 
-             <p>
-             
-               <span class="badge">25 min</span>
-             
-             </p>
-         </div>
-       </div>
-       
-       
+            <p>
+              
+            </p>
+          </div>
+        </div>
       
-       
-    
+      
+      
+      
+      
+        
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <h4><a href="/117-S15/morea/WOD-intro/reading-wod-weekly-rhythm.html">WOD Weekly Rhythm</a></h4>
+            <p>Course structure for learning by WODs</p>
+
+            <p>
+              
+            </p>
+          </div>
+        </div>
+      
+      
+      
+      
+      
+
     </div>
   </div>
 </div>
+
+
 
 <div class="section-background-1">
   <div class="container">
-    <h2><small>Module:</small> <a href="/117-S15/modules/baz/index.html">Learn to Baz</a></h2>
-
-    
+  <h2>Experiential Learning</h2>
 
     <div class="row">
-    
       
-       <div class="col-sm-3">
-         <div class="thumbnail">
-           <h4><a href="/117-S15/morea/baz/experience.html">Experience the Baz</a></h4>
-             <p>The third experiential learning event.</p>
+        
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <h4><a href="/117-S15/morea/foo/experience.html">Foo construction</a></h4>
+            <p>Practice construction of Foo instances.</p>
 
-             <p>
-             
-             </p>
-         </div>
-       </div>
-       
-       
+            <p>
+              
+            </p>
+          </div>
+        </div>
       
-       
-    
+      
+      
+      
+      
+
     </div>
   </div>
 </div>
+
+
 
 <div class="section-background-2">
   <div class="container">
-    <h2><small>Module:</small> <a href="/117-S15/modules/wod/index.html">Programming WODs</a></h2>
+    <h2>Assessments</h2>
 
-    
-
-    <div class="row">
     
       
-       <div class="col-sm-3">
-         <div class="thumbnail">
-           <h4><a href="/117-S15/morea/foo/experience.html">Foo construction</a></h4>
-             <p>Practice construction of Foo instances.</p>
-
-             <p>
-             
-             </p>
-         </div>
-       </div>
-       
-       
-      
-       
+      <h3>Assessment of Foo construction skill</h3>
+      <p>
+        
+      </p>
     
-    </div>
+    <p>
+      <em>Outcomes assessed:</em>
+      
+      <a href="/outcomes/#outcome1">Construct Foos</a>, 
+      
+      <a href="/outcomes/#outcome2">Design and create Bars</a>
+      
+    </p>
+    
+      <p>Assessed ability to construct foo instances.</p>
+
+<link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css" />
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+
+<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+
+<div class="well">
+  <div id="assessment" style="height: 250px;"></div>
+</div>
+
+<script>
+Morris.Bar({
+  element: 'assessment',
+  hideHover: false,
+  data: [
+        { y: 'Very satisfactory (%)', num: 25 },
+        { y: 'Satisfactory (%)', num: 40 },
+        { y: 'Unsatisfactory (%)', num: 30 },
+        { y: 'Absent (%)', num: 5 },
+        ],
+  xkey: 'y',
+  ykeys: ['num'],
+  resize: true,
+  labels: ['Students']
+});
+</script>
+
+
+    
+
   </div>
 </div>
+
+
+
 
 
 
