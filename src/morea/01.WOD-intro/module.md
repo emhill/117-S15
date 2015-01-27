@@ -16,7 +16,7 @@ morea_experiences:
 morea_assessments:
  - grade1
 morea_type: module
-morea_icon_url: /morea/01.WOD-intro/python-logo.png
+morea_icon_url: /morea/materials/python-logo.png
 morea_sort_order: 1
 ---
 

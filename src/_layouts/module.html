@@ -123,6 +123,7 @@ layout: default
       <em>Outcomes assessed:</em>
       {% for outcome in assessment.morea_related_outcomes %}
       <!--EH added: - {{ site.baseurl }} + {{ morea_page.dir }} -
+      but site.baseurl & morea_page.dir seem to be empty here
       FIX: add ../../ in front -->
       <a href="../../outcomes/#{{ outcome.morea_id }}">{{ outcome.title }}</a>{% unless forloop.last %}, {% endunless %}
       {% endfor %}
