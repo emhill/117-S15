@@ -11,4 +11,4 @@ morea_sort_order: 0
 ---
 # Computer Science: Realities and Myths
 
-Read [Computer Science: Realities and Myths](http://www.cs.hmc.edu/csforall/Introduction/Introduction.html#what-is-computer-science) **section 1.1 only**. A PDF version is also [available](/materials/cs5book.pdf).
+Read [Computer Science: Realities and Myths](http://www.cs.hmc.edu/csforall/Introduction/Introduction.html#what-is-computer-science) **section 1.1 only**. A PDF version is also [available](/morea/materials/cs5book.pdf).
