@@ -257,6 +257,9 @@ module Jekyll
           # Note we include the baseurl so that for readings and experiences, this link is absolute.
           # EH: Added / between base & dir no change
           morea_page.data['morea_url'] ="#{site.baseurl}#{morea_page.dir}/#{morea_page.basename}.html"
+          # EH: Added elsif to fix remote morea_urls for materials
+        elsif morea_page.data['morea_url'].start_with?('/morea/')
+          morea_page.data['morea_url'] = "#{site.baseurl}" + morea_page.data['morea_url']
         end
       end
 
