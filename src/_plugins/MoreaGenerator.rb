@@ -255,8 +255,8 @@ module Jekyll
         if !morea_page.data['morea_url']
           # When not supplied we automatically generate the relative URL to the page.
           # Note we include the baseurl so that for readings and experiences, this link is absolute.
-          # EH: Added / between base & dir
-          morea_page.data['morea_url'] ="#{site.baseurl}/#{morea_page.dir}/#{morea_page.basename}.html"
+          # EH: Added / between base & dir no change
+          morea_page.data['morea_url'] ="#{site.baseurl}#{morea_page.dir}/#{morea_page.basename}.html"
         end
       end
 
