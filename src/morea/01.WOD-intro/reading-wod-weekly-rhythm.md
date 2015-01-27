@@ -14,7 +14,7 @@ morea_sort_order: 0
 This class meets Monday, Wednesday, and Friday. Weather permitting, we will have a well defined "rhythm".
 
 At the top level, the course consists of a [sequence of
-modules](/modules). Typically, each topic will take one week to cover. 
+modules]({{site.baseurl}}/modules). Typically, each topic will take one week to cover. 
 In some cases, a
 module might be split into parts and take multiple weeks to cover.
 
