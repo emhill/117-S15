@@ -4,7 +4,7 @@ published: true
 morea_id: reading-slides
 morea_summary: "CSCI117: Introduction to Computers & Computing"
 morea_type: reading
-morea_url: reading-athletic-software-engineering
+morea_url: /morea/materials/01-Introduction.pptx
 morea_labels:
  - ppt
  - optional
