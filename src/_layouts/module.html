@@ -122,8 +122,9 @@ layout: default
     <p>
       <em>Outcomes assessed:</em>
       {% for outcome in assessment.morea_related_outcomes %}
-      <!-- EH added -->
-      <a href="{{ site.baseurl }} {{ morea_page.dir }}/outcomes/#{{ outcome.morea_id }}">{{ outcome.title }}</a>{% unless forloop.last %}, {% endunless %}
+      <!--EH added: -- {{ site.baseurl }} + {{ morea_page.dir }} --
+      FIX: add ../../ in front -->
+      <a href="../../outcomes/#{{ outcome.morea_id }}">{{ outcome.title }}</a>{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     </p>
     {% endunless %}
