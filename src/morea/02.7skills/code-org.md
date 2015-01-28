@@ -8,7 +8,7 @@ morea_summary: "Share your progress with me"
 ---
 ##Code.org Sign Up
 
-Before completing the HWs, visit [code.org](code.org) and create an account. Share your progress with me by:
+Before completing the HWs, visit [code.org](http://www.code.org) and create an account. Share your progress with me by:
 
  - Visiting [http://learn.code.org/join/MERBDM](http://learn.code.org/join/MERBDM), **OR**
  - adding the teacher code “MERBDM” by clicking the link at the bottom of the progress page.
