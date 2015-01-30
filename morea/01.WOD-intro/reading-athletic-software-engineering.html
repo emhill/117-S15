@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> WODs: Program like an Athlete | CSCI 117 Spring 2015 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/117-S15/css/themes/spacelab/bootstrap.min.css">
+  <link rel="stylesheet" href="/117-S15/css/style.css">
+  <link rel="stylesheet" href="/117-S15/css/syntax.css">
+  <link rel="shortcut icon" href="/117-S15/favicon.ico" type="image/x-icon" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/117-S15/index.html"> CSCI 117 Spring 2015 </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/117-S15/modules/">Modules</a></li>
+
+        
+        
+          <li><a href="/117-S15/outcomes/">Outcomes</a></li>
+        
+        
+          <li><a href="/117-S15/readings/">Readings</a></li>
+        
+        
+          <li><a href="/117-S15/experiences/">Experiences</a></li>
+        
+        
+          <li><a href="/117-S15/assessments/">Assessments</a></li>
+        
+        <li><a href="https://piazza.com/class/i5bhqmcagca5cx">Discussion</a>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="wods-an-athletic-approach-to-programming">WODs: An athletic approach to programming</h1>
+
+<p>Learning to program is a skill that requires constant practice, just like learning to play an instrument, a sport, or riding a bike. In this class, we will borrow the concept of “Workout of the Day” (<a href="http://www.crossfit.com/cf-info/faq.html#General0">WOD</a>) from <a href="http://www.crossfit.com/">CrossFit</a> and apply it to learning how to program.</p>
+
+<p>As with any learned skill, you are expected to <em>practice</em>  before the “show case” (in this case, graded) event. Do you expect to succeed at a track meet or play a lovely flute solo in a concert without practicing? Not likely. Don’t expect to succeed in programming without practicing either.</p>
+
+<h2 id="rx-av-sd-dnf">Rx, Av, Sd, DNF</h2>
+
+<p>For each WOD, I provide the following timing information:</p>
+
+<ul>
+  <li>Rx (As prescribed): Finishing the WOD in Rx time indicates mastery of the material tested by the WOD.</li>
+  <li>Av (Advanced): Finishing the WOD in Av time indicates superior performance.</li>
+  <li>Sd (Standard): Finishing the WOD in Sd time indicates acceptable performance.</li>
+  <li>DNF (Did not finish): If you take longer than Sd time, then you have taken an unacceptably long amount of time.</li>
+</ul>
+
+<p>Here is an example:</p>
+
+<p><span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: &lt;8 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 8-13 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 13-18 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 18+ min</span>
+</span></p>
+
+<p>So, in this example, completing the
+WOD in 8 minutes or less is “as prescribed”, 8 to 13 minutes is
+“Advanced”, 13 to 18 minutes is “standard”, and taking longer than 18 minutes is
+unacceptably slow. </p>
+
+<p>Note that simply stopping work at a certain time does not
+mean you achieved the associated standard: your solution must have acceptable quality as well.</p>
+
+<h2 id="practice-wods">Practice WODs</h2>
+
+<p>For each module, I provide practice WODs as homework assignments, which you can time on your own. Before starting a WOD, I recommend you review
+and study the associated material so that you do not spend valuable seconds
+during the WOD doing “research”. </p>
+
+<h2 id="graded-wods">Graded WODs</h2>
+
+<p>After providing you with time to practice some WODs, I will hold a graded
+WOD in class, during which I will time your performance and your solution will be submitted
+for grading. For grading purposes, the criteria is that you solve the problem
+with acceptable quality under the DNF cut-off time. </p>
+
+<p><strong>Your grade does not depend upon whether you performed at Rx, Av, or Sd levels, only that you complete the WOD correctly before the DNF cutoff time.</strong></p>
+
+<p>Partial credit will be given for correct WODs submitted before the next class.</p>
+
+<!--The general procedure for an assessment WOD is as follows:
+
+  * You have your own WOD"-velope", which is an envelope containing an" index card where we will keep track of your WOD scores.
+  * On the day of a WOD, you pick up your WOD-velope from me and fill out the date, and the name of the WOD.
+  * Once everyone is ready, I start a timer and give out the WOD assignment.
+  * When you finish the WOD, raise your hand. I will tell you your elapsed time. You record that on the index card and I collect your WOD-velope.
+  * When the WOD is finished (i.e. at the DNF cut-off time), everyone stops work and submits their program data.
+  * After class, I check each WOD assignment and give a grade. I also write down Rx, Av, Sd, or DNF on the index card. You can only receive Rx, Av, or Sd if you complete the WOD correctly and within the time frame for that performance level.-->
+
+<h2 id="further-reading">Further Reading</h2>
+
+<p>For more background on the “athletic software engineering” approach, see
+this <a href="http://philipmjohnson.org/2013/07/12/athletic-software-engineering-education/">essay</a>.</p>
+
+
+</div>
+
+
+
+<div class="footer-background">
+<footer>
+  <div class="container page-footer">
+    
+      <p><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#104;&#105;&#108;&#108;&#049;&#064;&#100;&#114;&#101;&#119;&#046;&#101;&#100;&#117;">Emily Hill</a> | <a href="http://www.drew.edu/mcs/">Department of Mathematics and Computer Science</a> | <a href="http://www.drew.edu/">Drew University</a> <br />
+<!---emhill@drew.edu<br>--></p>
+
+    
+    <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
+       Last update on: <span>2015-01-29 23:12:44 -0500</span></p>
+    <p style="margin: 0">
+      3 modules
+      
+        | 3 outcomes
+      
+      
+        | 11 readings
+      
+      
+        | 8 experiences
+      
+      
+        | 1 assessments
+      
+    </p>
+  </div>
+</footer>
+</div>
+</body>
+</html>
