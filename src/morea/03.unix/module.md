@@ -8,8 +8,11 @@ morea_readings:
  - reading-cs54
  - reading-slides3
 morea_experiences:
- - unix-install
+ - install-mac
+ - install-windows
+ - unix-custom
  - pwod1
+ - pwod2
 morea_type: module
 morea_icon_url: /morea/materials/tux.jpg
 morea_sort_order: 3

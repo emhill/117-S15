@@ -3,35 +3,50 @@ title: "PWOD1: UNIX & Hardware"
 published: true
 morea_id: pwod1
 morea_type: experience
-morea_sort_order: 2
+morea_sort_order: 4
 morea_summary: "Practice WOD"
 morea_labels:
  - due 2/4
 ---
-Coming soon.
+# Practice WOD1: UNIX & Hardware
+
+## Exploring Hardware & Binary
+
+1. How many pieces of information can be conveyed with a single bit?
+1. How many bits would you need to represent each of the 50 United States using a unique permutation of bits?
+1. How many bits are in a byte?
+1. What is the binary representation of the number 3?
+1. What is the encoding standard used to convert text into ordinal numbers?
+1. Fill in the following blanks with: motherboard, processor, memory, hard drive
+    a. variables are stored in/on ________
+    a. the ________ executes program statements
+    a. when a program is not being executed, it resides in/on ________
+    a. a ________ connects all the components of a computer with a bus
+
+## Exploring the UNIX command line
+
+Read through the following tutorial: [http://www.davidbaumgold.com/tutorials/command-line/](http://www.davidbaumgold.com/tutorials/command-line/). Then, open your UNIX terminal and go through the following steps.
+
+1. Let’s create a directory for this class. Type `mkdir csci117`.
+1. Type `cd csci117` to move the terminal to that directory
+1. Type `touch testfile.txt` to create an empty file
+1. Type `ls` in the terminal. Do you see testfile.txt?
+1. Type `pwd` to see what directory your terminal is in, then try to navigate your computer’s GUI (window’s explorer or mac finder) to display that directory. Do the GUI folder and terminal listing from the prior step match?
+1. Let’s edit our testfile:
+    - If you have [customized your terminal](unix-custom.html): `ped testfile.txt`
+    - On mac: `open -a textwrangler testfile.txt`
+    - On windows: `gedit testfile.txt &`
+1. Type your name and save the file
+1. Arrange your windows so you can see your editor and your terminal at the same time.
+1. In the terminal, type `cat testfile.txt`. Is your name displayed?
+1. Take a single screenshot of your desktop showing your editor and UNIX terminal window open at the same time.
+
+#### How to take a Screenshot
+ - **Windows**: [http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows](http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows)
+ - **Mac**: Press Command (⌘)-Shift-3. The screenshot is added to your desktop.
+
 
 <!--
-HWs 3 & 6
-# Practice WOD: Hello World Import & Export
-
-After installing eclipse & setting up your workspace, import your first project, change it, and export it.
-
-## Instructions
-
-1. *Start your timer*
-1. Download [HelloWorld.zip](HelloWorld.zip)
-1. Open Eclipse and go to File > Import > General > Existing Projects into Workspace
-1. Select archive file, hit “Browse”, and select the name.zip you just downloaded
-1. Double-click the project folder, the src folder, and then the default package. You should now see a class file, HelloWorld.java.
-1. To run the program:
-    -  Click on the green play button at the top of the screen **OR**
-    - Right-click name.java class and select “Run As > Java Application”
-1. Change the program so that instead of displaying "Hello, World!" it days hello to you.
-2. Run the program to verify your changes.
-3. Export your program. If this were a graded WOD, you would also submit to moodle.
-1. *Stop your timer*-->
-
-<!--{% include wod-times.html Rx="<10 min" Av="10-15 min" Sd="15-20 min" DNF="20+ min" %}
 
 ## Demonstration
 

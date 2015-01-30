@@ -7,7 +7,6 @@ morea_type: reading
 morea_url: /morea/materials/02-7BasicProgrammingConcepts.pptx
 morea_labels:
  - ppt
- - optional
 morea_sort_order: 0
 ---
 <!-- materials/01-Introduction.pptx -->
