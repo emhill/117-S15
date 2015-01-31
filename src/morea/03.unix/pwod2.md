@@ -1,5 +1,5 @@
 ---
-title: "PWOD2: UNIX Command Review"
+title: "PWOD2: UNIX Command Overview"
 published: true
 morea_id: pwod2
 morea_type: experience
@@ -16,11 +16,13 @@ A. Briefly describe what it does in your own words. Example:
 
     wget downloads files from the internet
 
-
 B. Write a template of how the command is used -- indicate arguments in [brackets]. For example, a template for the wget command would look like this:
 
     wget [url to download]
 
+Alternatively, the zip command to submit an assignment might look like this:
+
+    zip [folder].zip [folder]/*
 
 C. Take a screenshot of using the command on your terminal (please crop irrelevant parts<!--, but make sure to show your prompt so I can see it’s your computer and not someone else’s)-->. You should make sure the command works in the screen shot.
 
@@ -28,7 +30,7 @@ C. Take a screenshot of using the command on your terminal (please crop irreleva
 
    <a href="wget.png"><img src="wget.png" width="500"/></a>
 
-   Example for **remove** needs to show the file is no longer there:
+   The example for **remove** also needs to show the file is no longer there:
 
    <a href="rm.png"><img src="rm.png" width="300"/></a>
 
@@ -58,13 +60,16 @@ Your document should be organized by command -- for example, you should describe
 - Mac: [http://www.ehow.com/how_4559274_take-edit-screen-shots-mac.html](http://www.ehow.com/how_4559274_take-edit-screen-shots-mac.html)
     - Make sure to use Command (⌘)-K rather than control-K as the article states.
 
-
-<!--
-
 ## Demonstration
 
-Once you've finished doing the WOD a single time, watch me do it:
+Once you've finished doing the WOD a single time, you can watch me do it:
 
-{% include youtube.html id="lbh5q9Lj-As" %}
+{% include youtube.html id="bMbr3Xpbgzk" %}
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
+
+### Screenshot of my final UNIX terminal:
+
+<a href="terminalA.png"><img src="terminalA.png" width="400"/></a><BR>
+<a href="terminalB.png"><img src="terminalB.png" width="400"/></a><BR>
+<a href="terminalC.png"><img src="terminalC.png" width="400"/></a>

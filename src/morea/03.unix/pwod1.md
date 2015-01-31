@@ -18,10 +18,10 @@ morea_labels:
 1. What is the binary representation of the number 3?
 1. What is the encoding standard used to convert text into ordinal numbers?
 1. Fill in the following blanks with: motherboard, processor, memory, hard drive:
-    a. variables are stored in/on ________
-    a. the ________ executes program statements
-    a. when a program is not being executed, it resides in/on ________
-    a. a ________ connects all the components of a computer with a bus
+    1. variables are stored in/on ________
+    1. the ________ executes program statements
+    1. when a program is not being executed, it resides in/on ________
+    1. a ________ connects all the components of a computer with a bus
 
 ## Exploring the UNIX command line
 
@@ -35,7 +35,7 @@ Read through the following tutorial: [http://www.davidbaumgold.com/tutorials/com
 1. Let’s edit our testfile:
     - If you have [customized your terminal](unix-custom.html): `ped testfile.txt`
     - On mac: `open -a textwrangler testfile.txt`
-    - On windows: `gedit testfile.txt &`
+    - On windows virtual box: `gedit testfile.txt &`
 1. Type your name and save the file
 1. Arrange your windows so you can see your editor and your terminal at the same time.
 1. In the terminal, type `cat testfile.txt`. Is your name displayed?
@@ -45,13 +45,20 @@ Read through the following tutorial: [http://www.davidbaumgold.com/tutorials/com
  - **Windows**: [http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows](http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows)
  - **Mac**: Press Command (⌘)-Shift-3. The screenshot is added to your desktop.
 
-
-<!--
+{% include wod-times.html Rx="<10 min" Av="10-15 min" Sd="15-20 min" DNF="20+ min" %}
 
 ## Demonstration
 
 Once you've finished doing the WOD a single time, watch me do it:
 
-{% include youtube.html id="lbh5q9Lj-As" %}
+{% include youtube.html id="CIC9W_H1TjA" %}
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
+
+### Solutions to Hardware Questions
+
+<a href="HardwareSolutions.png"><img src="HardwareSolutions.png" width="200"/></a>
+
+### My Final UNIX Screenshot
+
+<a href="screenshot.png"><img src="screenshot.png" width="200"/></a>
