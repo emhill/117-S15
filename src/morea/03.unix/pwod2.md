@@ -4,11 +4,13 @@ published: true
 morea_id: pwod2
 morea_type: experience
 morea_sort_order: 5
-morea_summary: "Practice WOD"
+morea_summary: "Practice WOD: UNIX & python"
 morea_labels:
  - due 2/4
 ---
-# Practice WOD2: UNIX Command Overview
+# Practice WOD2: UNIX Command Overview & Running your first Python Program
+
+## UNIX Command Overview
 
 For each of the following commands:
 
@@ -59,6 +61,18 @@ Your document should be organized by command -- for example, you should describe
 - Windows: [www.ehow.com/how_6801557_crop-screen-shot.html](www.ehow.com/how_6801557_crop-screen-shot.html)
 - Mac: [http://www.ehow.com/how_4559274_take-edit-screen-shots-mac.html](http://www.ehow.com/how_4559274_take-edit-screen-shots-mac.html)
     - Make sure to use Command (⌘)-K rather than control-K as the article states.
+
+## Running your first python program
+
+In a graded WOD or project, I would give you directions like this:
+
+1. Create a folder `pwod2_uLogin` where you replace `uLogin` with your Drew e-mail address before the @ sign.
+2. Go into this folder by typing `cd pwod2_uLogin` and create a python file: `touch hello_world.py`
+3. Edit the file (`ped hello_world.py`) to print "Hello, World!". *Make sure to save your file.*
+4. Run your python program: `python3 hello_world.py`
+5. Once you're satisfied that your program is working correctly, zip it for submission:
+    - `cd ..`
+    - `zip pwod2_uLogin.zip pwod2_uLogin/*`
 
 ## Demonstration
 
