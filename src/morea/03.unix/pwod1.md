@@ -17,7 +17,7 @@ morea_labels:
 1. How many bits are in a byte?
 1. What is the binary representation of the number 3?
 1. What is the encoding standard used to convert text into ordinal numbers?
-1. Fill in the following blanks with: motherboard, processor, memory, hard drive
+1. Fill in the following blanks with: motherboard, processor, memory, hard drive:
     a. variables are stored in/on ________
     a. the ________ executes program statements
     a. when a program is not being executed, it resides in/on ________
