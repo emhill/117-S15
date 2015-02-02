@@ -31,4 +31,4 @@ Morris.Bar({
   labels: ['Students']
 });
 </script>
-<!--   resize: true, -->
+<!--   resize: true, --

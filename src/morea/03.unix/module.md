@@ -7,6 +7,7 @@ morea_outcomes:
 morea_readings:
  - reading-cs54
  - reading-slides3
+ - reading-board3
 morea_experiences:
  - install-mac
  - install-windows

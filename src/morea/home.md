@@ -18,3 +18,6 @@ To explore and implement the topics we will be discussing in class, you will nee
 
 ### Syllabus
 [Overview of course policies]({{site.baseurl}}/morea/materials/Syllabus.pdf)
+
+### Course Schedule
+Tentative [course calendar](https://www.dropbox.com/s/5kdnytb30ipwqix/calendar.xlsx?dl=0), updated weekly.
