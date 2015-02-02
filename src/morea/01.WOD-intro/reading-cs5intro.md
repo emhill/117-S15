@@ -5,9 +5,8 @@ morea_id: reading-cs5intro
 morea_summary: "What is Computer Science? What does it mean to program an algorithm?"
 morea_type: reading
 morea_labels:
- - textbook
  - 5 pages
-morea_sort_order: 0
+morea_sort_order: 5
 ---
 # Computer Science: Realities and Myths
 

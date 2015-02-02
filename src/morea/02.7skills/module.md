@@ -18,7 +18,7 @@ morea_icon_url: /morea/materials/code-logo.jpg
 morea_sort_order: 2
 ---
 
-These 7 concepts can be combined in infinitely many ways. Once mastered, you can implement any program that's ever been written, in any programming language.
+These 7 concepts can be combined in infinitely many ways. Once mastered, you can implement any program ever written. <!--, in any programming language.-->
 
 <!-- morea_assessments:
  - grade1

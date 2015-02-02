@@ -6,6 +6,6 @@ morea_summary: "What's wrong with this picture?"
 morea_type: reading
 morea_url: http://code.org/stats
 morea_labels:
- - web page
-morea_sort_order: 0
+ - web
+morea_sort_order: 3
 ---

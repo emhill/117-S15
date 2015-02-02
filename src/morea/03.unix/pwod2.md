@@ -66,7 +66,7 @@ Your document should be organized by command -- for example, you should describe
 
 In a graded WOD or project, I would give you directions like this:
 
-1. Create a folder `pwod2_uLogin` where you replace `uLogin` with your Drew e-mail address before the @ sign.
+1. Create a folder (`mkdir pwod2_uLogin`) where you replace `uLogin` with your Drew e-mail address before the @ sign.
 2. Go into this folder by typing `cd pwod2_uLogin` and create a python file: `touch hello_world.py`
 3. Edit the file (`ped hello_world.py`) to print "Hello, World!". *Make sure to save your file.*
 4. Run your python program: `python3 hello_world.py`

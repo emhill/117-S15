@@ -7,6 +7,6 @@ morea_type: reading
 morea_url: /morea/materials/01-Introduction.pptx
 morea_labels:
  - ppt
-morea_sort_order: 0
+morea_sort_order: 6
 ---
 <!-- materials/01-Introduction.pptx -->

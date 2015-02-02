@@ -18,7 +18,7 @@ morea_icon_url: /morea/materials/tux.jpg
 morea_sort_order: 3
 ---
 
-Introduction to Hardware & the UNIX Command Line Interface
+Introduction to Hardware & the UNIX Command Line Interface.
 
 <!-- 
 morea_experiences:

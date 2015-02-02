@@ -4,7 +4,7 @@ published: true
 morea_id: reading-wod-weekly-rhythm
 morea_summary: "Course structure for learning by WODs"
 morea_type: reading
-morea_sort_order: 0
+morea_sort_order: 2
 ---
 
 # WOD Weekly Rhythm

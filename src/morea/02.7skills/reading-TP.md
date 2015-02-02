@@ -5,7 +5,6 @@ morea_id: reading-TP1
 morea_summary: "Think Python Chapter 1"
 morea_type: reading
 morea_labels:
- - textbook
  - 7 pages
 morea_sort_order: 0
 ---

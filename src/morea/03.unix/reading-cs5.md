@@ -5,7 +5,6 @@ morea_id: reading-cs54
 morea_summary: "Computer organization & representing information"
 morea_type: reading
 morea_labels:
- - textbook
  - 6 pages
 morea_sort_order: 0
 ---

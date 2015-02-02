@@ -4,7 +4,7 @@ published: true
 morea_id: reading-athletic-software-engineering
 morea_summary: "An 'athletic' approach to programming using Workouts of the Day."
 morea_type: reading
-morea_sort_order: 0
+morea_sort_order: 1
 ---
 
 # WODs: An athletic approach to programming
