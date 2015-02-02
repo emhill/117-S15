@@ -22,8 +22,8 @@ Morris.Bar({
   element: 'assessment',
   hideHover: false,
   data: [
-        { y: 'Satisfactory (%)', num: 30 },
-        { y: 'Unsatisfactory (%)', num: 0 },
+        { y: 'Satisfactory (%)', num: 27 },
+        { y: 'Unsatisfactory (%)', num: 3 },
         ],
   xkey: 'y',
   ykeys: ['num'],
