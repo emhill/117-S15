@@ -1,5 +1,5 @@
 ---
-title: "Work with the UNIX command line"
+title: "Work with UNIX and binary numbers"
 published: true
 morea_id: outcome-unix
 morea_type: outcome
