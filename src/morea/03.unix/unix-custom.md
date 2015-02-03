@@ -25,7 +25,7 @@ The following tutorial will setup an alias, ped, that you can type on the comman
 ## Windows
 
 1. Open your terminal and type `ls -a`
-1. Open .bashrc file in your editor: `gedit .bash_profile &`
-1. Add the following line to your .bashrc if it's not there already: `alias ped='gedit &'`
+1. Open .bashrc file in your editor: `gedit .bashrc &`
+1.  If it's not already at the top of the file, add the following line to your .bashrc: `ped() { gedit "$@" & }`
 1. Save the file, close the terminal, & reopen the terminal
 1. Try it out by typing `ped`
