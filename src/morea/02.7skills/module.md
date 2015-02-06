@@ -13,6 +13,8 @@ morea_experiences:
  - hw3
  - ec2
  - ec3
+morea_assessments:
+ - grade1
 morea_type: module
 morea_icon_url: /morea/materials/code-logo.jpg
 morea_sort_order: 2

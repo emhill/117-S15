@@ -14,6 +14,7 @@ morea_experiences:
  - unix-custom
  - pwod1
  - pwod2
+ - wod1
 morea_type: module
 morea_icon_url: /morea/materials/tux.jpg
 morea_sort_order: 3
