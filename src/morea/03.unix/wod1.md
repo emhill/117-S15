@@ -15,7 +15,7 @@ morea_labels:
 1. Create a folder `wod1_uLogin` where you replace `uLogin` with your Drew e-mail address before the @ sign.
 2. Go into this folder by typing `cd wod1_uLogin` and create a python file: `touch hello_world.py`
 3. Edit the file (`ped hello_world.py`) to print "Hello, Name!". Replacing "Name" with *your* name.
-4. Copy your python file to `hello.py`.
+4. Copy your python file `hello_world.py` to `hello.py`.
 4. Run your python program: `python3 hello.py`
 5. Once you're satisfied that your program is working correctly, zip it for submission:
     - `cd ..`
@@ -25,7 +25,7 @@ morea_labels:
 
 ## Hardware & Binary
 
-Answer the following questions when you submit your zip file:
+Answer the following questions when you submit your zip file to moodle:
 
 1. What is the binary representation of the number 26?
 2. What is the decimal representation of the number 11011?
@@ -36,4 +36,4 @@ Answer the following questions when you submit your zip file:
 7. What is the UNIX command for displaying the path to the current directory?
 
 {% include wod-times.html Rx="<5 min" Av="5-10 min" Sd="10-15 min" DNF="15+ min" %}
-<!-- Allow 25 minutes -- start at 11:30 -->
+<!-- start at 11:35 -- Allowed 25 minutes for all -->
