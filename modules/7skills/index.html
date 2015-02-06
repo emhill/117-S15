@@ -252,6 +252,60 @@
 
 
 
+<div class="section-background-2">
+  <div class="container">
+    <h2>Assessments</h2>
+
+    
+      
+      <h3>CSCI 117 Intro Survey</h3>
+      <p>
+        
+      </p>
+    
+    <p>
+      <em>Outcomes assessed:</em>
+      
+      <!--EH added: - /117-S15 +  -
+      but site.baseurl & morea_page.dir seem to be empty here
+      FIX: add ../../ in front -->
+      <a href="../../outcomes/#outcome1">Why are we here?</a>
+      
+    </p>
+    
+      <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css" />
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+
+<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+
+<div class="well" style="width: 450px">
+  <div id="assessment" style="width: 400px; height: 250px"></div>
+  Assess course motivation, understanding of course structure, and what is computer science.
+</div>
+
+<script>
+Morris.Bar({
+  element: 'assessment',
+  hideHover: false,
+  data: [
+        { y: 'Satisfactory (%)', num: 27 },
+        { y: 'Unsatisfactory (%)', num: 3 },
+        ],
+  xkey: 'y',
+  ykeys: ['num'],
+  resize: true,
+  labels: ['Students']
+});
+</script>
+
+<p>&lt;!–   resize: true, –</p>
+
+    
+
+  </div>
+</div>
+
 
 
 
@@ -268,7 +322,7 @@
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-02-04 10:47:18 -0500</span></p>
+       Last update on: <span>2015-02-06 11:35:12 -0500</span></p>
     <p style="margin: 0">
       4 modules
       
@@ -278,7 +332,7 @@
         | 14 readings
       
       
-        | 13 experiences
+        | 14 experiences
       
       
         | 1 assessments
