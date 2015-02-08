@@ -8,10 +8,11 @@ morea_outcomes:
 morea_readings:
  - reading-TP2
  - reading-slides4
+ - reading-board4
 morea_experiences:
- - pwod2
  - ca-1-2
  - ca-3-4
+ - pwod3
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/python-logo.png
