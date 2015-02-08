@@ -1,10 +1,10 @@
 ---
-title: "PWOD3: Python Syntax & Variables"
+title: "PWOD3"
 published: true
 morea_id: pwod3
 morea_type: experience
 morea_sort_order: 5
-morea_summary:
+morea_summary: "Python Syntax & Variables"
 morea_labels:
  - due 2/11
 ---
