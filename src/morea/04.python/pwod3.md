@@ -4,6 +4,7 @@ published: true
 morea_id: pwod3
 morea_type: experience
 morea_sort_order: 5
+morea_summary:
 morea_labels:
  - due 2/11
 ---
