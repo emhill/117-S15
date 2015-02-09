@@ -1,6 +1,7 @@
 ---
 title: "Control Flow"
-published: false
+published: true
+morea_coming_soon: true
 morea_id: flow
 morea_outcomes:
  - outcome-python
@@ -14,8 +15,8 @@ morea_experiences:
  - pwod4
 morea_assessments:
 morea_type: module
-morea_icon_url: /morea/materials/autumn_maple_tree_branches-normal.jpg
+morea_icon_url: /morea/materials/branch.jpg
 morea_sort_order: 5
 ---
 
-Making decisions with if conditions and repeating statements with definite for loops.
+Making decisions with if conditions and repeating statements with for loops.

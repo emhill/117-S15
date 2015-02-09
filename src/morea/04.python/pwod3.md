@@ -39,7 +39,7 @@ Try to answer the following questions without typing them in to the python3 inte
 1. Given the following values, what are their types:
     1. True
     1. 'True'
-    1. 3i + 7j
+    1. 3 + 7j
     1. 34,756
     1. 98.7
     1. "98.7"
@@ -56,16 +56,18 @@ Try to answer the following questions without typing them in to the python3 inte
     1. The number of Vince Lombardi trophies a team has won
     1. The average number of touchdown passes per game
 
-<!--{% include wod-times.html Rx="<5 min" Av="5-10 min" Sd="10-15 min" DNF="15+ min" %}
--->
-<!-- start at 11:35 -- Allowed 25 minutes for all -->
+{% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="30+ min" %}
+
+<!-- Allow 45 minutes for all? -->
+
 ## Demonstration
 
-*Coming soon...*
+Once you've finished doing the WOD a single time, you can watch me do it:
 
-<!--Once you've finished doing the WOD a single time, you can watch me do it:
-
-{% include youtube.html id="bMbr3Xpbgzk" %}
+{% include youtube.html id="NGK61X9ry9c" %}
 
 {% include wod-warning.html %}
--->
+
+### Solutions to Questions
+
+<a href="types.png"><img src="types.png" width="200"/></a>
