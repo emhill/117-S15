@@ -18,11 +18,12 @@ Python supports 6 basic arithmetic operations:
  * addition (+)
  * subtraction (-)
  * multiplication (*)
- * division (/)
+ * floating point division (/)
+ * integer division (//) -- rounds down to nearest whole number
  * exponent (**)
- * remainder or modulus (%)
+ * remainder or modulus (%) -- returns remainder after division
 
-Below are some examples we looked at in class:
+Below are some examples we looked at in class:<BR>
 <a href="python-arithmetic.png"><img src="python-arithmetic.png" width="300"/></a><BR>
 
 ## Example program(s) from 2/8
