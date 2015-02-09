@@ -8,6 +8,7 @@ morea_outcomes:
 morea_readings:
  - reading-TP2
  - reading-slides4
+ - reading-slides5
  - reading-board4
 morea_experiences:
  - ca-1-2

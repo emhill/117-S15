@@ -11,7 +11,7 @@ morea_sort_order: 0
 
 # Board & Demo Notes 2/6 & 2/9
 
-## Python arithmetic
+## Python arithmetic 2/6
 
 Python supports 6 basic arithmetic operations:
 
@@ -26,7 +26,15 @@ Python supports 6 basic arithmetic operations:
 Below are some examples we looked at in class:<BR>
 <a href="python-arithmetic.png"><img src="python-arithmetic.png" width="300"/></a><BR>
 
-## Example program(s) from 2/8
+## Python arithmetic 2/9
+
+Below are some examples we looked at in class:<BR>
+<a href="python-arithmetic2.jpg"><img src="python-arithmetic2.jpg" width="250"/></a><BR>
+
+Regarding order of operations & precedence:<BR>
+<a href="python-order.jpg"><img src="python-order.jpg" width="250"/></a><BR>
+
+## Example program(s) from 2/9
 
  * [arith_and_assign.py](arith_and_assign.py)
  * [input_demo.py](input_demo.py)
