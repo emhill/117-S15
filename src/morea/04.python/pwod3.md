@@ -27,7 +27,7 @@ morea_labels:
         * tip: holds the tip percentage (18%)
         * total: holds the total of the meal. Proper tipping technique dictates that the tip should be calculated based on the total cost of the meal, before tax is applied.
     1. Prints the contents of the total variable with a leading dollar sign ($).
-4. Run your python program: `python3 tips.py`.
+4. Run your python program: `python3 tips.py`. The total should be `$66.85`
 5. Once you're satisfied that your programs are working correctly, zip it for submission:
     - `cd ..`
     - `zip pwod3_uLogin.zip pwod3_uLogin/*`

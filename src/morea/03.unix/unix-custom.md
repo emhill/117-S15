@@ -16,8 +16,9 @@ The following tutorial will setup an alias, ped, that you can type on the comman
 ## Mac
 
 1. Open your terminal and type `ls -a`
-1. If there is no file named .bash_profile, type `touch .bash_profile`
-1. Open this .bash_profile file in your editor: `open -a textwrangler .bash_profile`
+2. You should see either a file named .bash_profile or .profile (likely in Yosemite).
+    * If there is no file named .bash_profile or .profile, type `touch .bash_profile`
+1. Open this file in your editor: `open -a textwrangler .bash_profile` or `open -a textwrangler .profile`
 1. Add the following line to your .bash_profile: `alias ped='open -a textwrangler'`
 1. Save the file, close the terminal, & reopen the terminal
 1. Try it out by typing `ped`
