@@ -8,7 +8,7 @@ morea_type: home
 
 **Essential Question:** How can we automatically solve problems using computers?
 
-By the end of the course, you should be able to implement solutions to solve basic computational problems, including manipulating images, gaining insight from large data sets, and analyzing social networks. You will learn Python, a popular and easy-to-use general-purpose programming language, and use it to implement your algorithms. You will learn to navigate your computer and execute pro- grams using the UNIX command-line interface.
+By the end of the course, you should be able to implement solutions to solve basic computational problems, including manipulating images, gaining insight from large data sets, and analyzing social networks. You will learn Python, a popular and easy-to-use general-purpose programming language, and use it to implement your algorithms. You will learn to navigate your computer and execute programs using the UNIX command-line interface.
 
 <!--### Materials
 

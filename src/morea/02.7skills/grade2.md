@@ -1,11 +1,11 @@
 ---
-title: "CSCI 117 Intro Survey"
+title: "Code.org"
 published: true
-morea_id: grade1
+morea_id: grade2
 morea_type: assessment
 morea_outcomes_assessed:
-  - outcome1
-morea_sort_order: 0
+  - outcome-7skills
+morea_sort_order: 1
 ---
 
 <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
@@ -22,8 +22,9 @@ Morris.Bar({
   element: 'assessment',
   hideHover: false,
   data: [
-        { y: 'Satisfactory (%)', num: 27 },
-        { y: 'Unsatisfactory (%)', num: 3 },
+        { y: 'Excellent (%)', num: 13 },
+        { y: 'Satisfactory (%)', num: 11 },
+        { y: 'Unsatisfactory (%)', num: 6 },
         ],
   xkey: 'y',
   ykeys: ['num'],
