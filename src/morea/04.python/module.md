@@ -14,6 +14,7 @@ morea_experiences:
  - ca-1-2
  - ca-3-4
  - pwod3
+ - wod2
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/python-logo.png
