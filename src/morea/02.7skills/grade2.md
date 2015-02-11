@@ -12,9 +12,9 @@ morea_sort_order: 1
 <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
 <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
 
-<div class="well" style="width: 450px">
-  <div id="assessment" style="width: 400px; height: 250px"></div>
-  Assess course motivation, understanding of course structure, and what is computer science.
+<div class="well" style="width: 550px">
+  <div id="assessment" style="width: 500px; height: 250px"></div>
+  Explore using the 7 basic programming skills. "Excellent" includes extra credit, "Satisfactory" includes full credit. "Unsatisfactory" is incomplete.
 </div>
 
 <script>
