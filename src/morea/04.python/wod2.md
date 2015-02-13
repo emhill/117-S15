@@ -56,4 +56,4 @@ Answer the following questions when you submit your zip file to moodle:
 
 {% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="30+ min" %}
 
-<!-- Allow 45 minutes for all? -->
+<!-- Started @ 11:31 -->

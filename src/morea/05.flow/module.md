@@ -8,6 +8,7 @@ morea_outcomes:
  - outcome-7skills
 morea_readings:
  - reading-TP5
+ - reading-TP4.2
  - reading-slides6
  - reading-board5
 morea_experiences:
