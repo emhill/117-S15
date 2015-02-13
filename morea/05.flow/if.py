@@ -14,4 +14,4 @@ d = (y<4) or (z<3)
 print("d=",d)
 
 d = not d
-print(b, c, d)
+print("b:", b, "c:", c, "d:", d)
