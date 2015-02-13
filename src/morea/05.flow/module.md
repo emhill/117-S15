@@ -1,7 +1,7 @@
 ---
 title: "Control Flow"
 published: true
-morea_coming_soon: true
+morea_coming_soon: false
 morea_id: flow
 morea_outcomes:
  - outcome-python
