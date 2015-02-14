@@ -10,6 +10,7 @@ morea_readings:
  - reading-TP5
  - reading-TP4.2
  - reading-slides6
+ - reading-slides7
  - reading-board5
 morea_experiences:
  - ca-5
