@@ -59,7 +59,7 @@
 			scaleStartValue: null,
 
 			// String - Colour of the scale line
-			scaleLineColor: "rgba(0,0,0,.1)",
+			scaleLineColor: "#666",
 
 			// Number - Pixel width of the scale line
 			scaleLineWidth: 1,
@@ -74,7 +74,7 @@
 			scaleIntegersOnly: true,
 
 			// Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
-			scaleBeginAtZero: false,
+			scaleBeginAtZero: true,
 
 			// String - Scale label font declaration for the scale label
 			scaleFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
@@ -98,7 +98,7 @@
 			tooltipEvents: ["mousemove", "touchstart", "touchmove", "mouseout"],
 
 			// String - Tooltip background colour
-			tooltipFillColor: "rgba(0,0,0,0.8)",
+			tooltipFillColor: "#333",
 
 			// String - Tooltip label font declaration for the scale label
 			tooltipFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
@@ -1900,7 +1900,7 @@
 		scaleBeginAtZero : true,
 
 		//Boolean - Whether grid lines are shown across the chart
-		scaleShowGridLines : true,
+		scaleShowGridLines : false,
 
 		//String - Colour of the grid lines
 		scaleGridLineColor : "rgba(0,0,0,.05)",
