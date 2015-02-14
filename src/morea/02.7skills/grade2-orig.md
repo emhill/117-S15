@@ -1,11 +1,11 @@
 ---
-title: "Code.org Exercises"
+title: "Code.org"
 published: true
-morea_id: grade2
+morea_id: grade2-orig
 morea_type: assessment
 morea_outcomes_assessed:
-  - outcome1
-morea_sort_order: 0
+  - outcome-7skills
+morea_sort_order: 1
 ---
 
 <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
@@ -14,7 +14,7 @@ morea_sort_order: 0
 
 <div class="well" style="width: 550px">
   <div id="assessment" style="width: 500px; height: 250px"></div>
-  Explore the use of the 7 basic programming concepts to draw shapes, dig holes, and help an angry bird get a pig
+  Explore using the 7 basic programming skills. "Excellent" includes extra credit, "Satisfactory" includes full credit. "Unsatisfactory" is incomplete.
 </div>
 
 <script>
@@ -22,7 +22,7 @@ Morris.Bar({
   element: 'assessment',
   hideHover: false,
   data: [
-        { y: 'Excellent (%)', num: 11 },
+        { y: 'Excellent (%)', num: 13 },
         { y: 'Satisfactory (%)', num: 11 },
         { y: 'Unsatisfactory (%)', num: 6 },
         ],
