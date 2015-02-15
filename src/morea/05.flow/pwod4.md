@@ -25,7 +25,7 @@ Create a program that asks the user for the current temperature and outputs what
     * **Below 60**: “Don’t forget your sweater”
     * **Below freezing**: “Brrr, you need a coat!”
 
-Only one phrase should be displayed to the user for any given temperature input.
+Only one phrase should be displayed to the user for any given temperature input. Make sure to test your program with multiple temperatures.
 
 ## absolute_value.py
 
@@ -33,18 +33,17 @@ Create a program that asks the user for a number and prints its absolute value *
 
 ## is_multiple.py
 
-Create a program that asks the user for a whole number and prints whether it's a multiple of 5. Make sure to test the program by inputting a positive and a negative number. (*Hint*: what arithmetic operator can you use to determine whether a number is a multiple of another?)
+Create a program that asks the user for a whole number and prints whether it's a multiple of 5. Make sure to test the program by inputting numbers that are multiples of 5 as well as those that aren't multiples of 5. (*Hint*: what arithmetic operator can you use to determine whether a number is a multiple of another?)
 
-<!--{% include wod-times.html Rx="<5 min" Av="5-10 min" Sd="10-15 min" DNF="15+ min" %}
--->
+{% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
+
 
 ## Demonstration
 
-*Coming soon...*
+<!--*Coming soon...*-->
 
-<!--Once you've finished doing the WOD a single time, you can watch me do it:
+Once you've finished doing the WOD a single time, you can watch me do it:
 
-{% include youtube.html id="bMbr3Xpbgzk" %}
+{% include youtube.html id="gHFuYMWDa28" %}
 
 {% include wod-warning.html %}
--->

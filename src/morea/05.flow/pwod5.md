@@ -22,18 +22,16 @@ Create a program that does the following:
 
 ## average.py
 
-Create a program that calculates the average of a series of 10 real (i.e., decimal) numbers entered by the user. The user should enter ten numbers, hitting enter after each number. Make sure you ask (i.e., prompt) the user to enter each number. Note the loop will require two numbers to calculate the average: the sum and the number of numbers entered by the user (10).
+Create a program that calculates the average of a series of 10 real (i.e., decimal) numbers entered by the user. Make sure you ask (i.e., prompt) the user to enter each number (the user will hit enter after each number). Note you will need two numbers to calculate the average: the sum and the number of numbers entered by the user (10).
 
-<!--{% include wod-times.html Rx="<5 min" Av="5-10 min" Sd="10-15 min" DNF="15+ min" %}
--->
+{% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
 
 ## Demonstration
 
-*Coming soon...*
+<!--*Coming soon...*-->
 
-<!--Once you've finished doing the WOD a single time, you can watch me do it:
+Once you've finished doing the WOD a single time, you can watch me do it:
 
-{% include youtube.html id="bMbr3Xpbgzk" %}
+{% include youtube.html id="lexkpbllvT0" %}
 
 {% include wod-warning.html %}
--->
