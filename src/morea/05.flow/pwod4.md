@@ -19,11 +19,11 @@ Create a program that asks the user for the current temperature and outputs what
 1. Has a variable, `temp`, that stores the temperature input from the user
 2. Requests the user to enter the temperature
 3. Displays the following information based on the temperature range:
-    * Above 90: “Whoa, it’s boiling!”
-    * Above or equal to 80: “It’s getting hot”
-    * Below 80: “A perfect day”
-    * Below 60: “Don’t forget your sweater”
-    * Below freezing: “Brrr, you need a coat!”
+    * **Above 90**: “Whoa, it’s boiling!”
+    * **Above or equal to 80**: “It’s getting hot”
+    * **Below 80**: “A perfect day”
+    * **Below 60**: “Don’t forget your sweater”
+    * **Below freezing**: “Brrr, you need a coat!”
 
 Only one phrase should be displayed to the user for any given temperature input.
 
