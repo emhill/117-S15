@@ -12,6 +12,8 @@ morea_labels:
 
 In this practice WOD you will create 2 programs that use for loops.
 
+{% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
+
 ## hello_loops.py
 
 Create a program that does the following:
@@ -24,7 +26,7 @@ Create a program that does the following:
 
 Create a program that calculates the average of a series of 10 real (i.e., decimal) numbers entered by the user. Make sure you ask (i.e., prompt) the user to enter each number (the user will hit enter after each number). Note you will need two numbers to calculate the average: the sum and the number of numbers entered by the user (10).
 
-{% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
+
 
 ## Demonstration
 

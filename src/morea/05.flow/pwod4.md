@@ -12,6 +12,8 @@ morea_labels:
 
 In this practice WOD you will create 3 programs that explore getting user input and using if statements.
 
+{% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
+
 ## temperature.py
 
 Create a program that asks the user for the current temperature and outputs what they should wear. Your program should meet the following requirements:
@@ -35,7 +37,7 @@ Create a program that asks the user for a number and prints its absolute value *
 
 Create a program that asks the user for a whole number and prints whether it's a multiple of 5. Make sure to test the program by inputting numbers that are multiples of 5 as well as those that aren't multiples of 5. (*Hint*: what arithmetic operator can you use to determine whether a number is a multiple of another?)
 
-{% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
+
 
 
 ## Demonstration
