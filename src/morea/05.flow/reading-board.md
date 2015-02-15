@@ -30,3 +30,4 @@ Examples with equals:<BR>
 ### from 2/16
 
  * [range_examples.py](range_examples.py)
+ * [loop_fun.py](loop_fun.py)
