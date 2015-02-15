@@ -16,6 +16,9 @@ morea_experiences:
  - pwod3
  - wod2
 morea_assessments:
+ - grade-wod2
+ - grade-hw2
+ - grade-hw3
 morea_type: module
 morea_icon_url: /morea/materials/python-logo.png
 morea_sort_order: 4

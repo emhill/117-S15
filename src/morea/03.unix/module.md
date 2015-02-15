@@ -15,6 +15,8 @@ morea_experiences:
  - pwod1
  - pwod2
  - wod1
+morea_assessments:
+ - grade-wod1
 morea_type: module
 morea_icon_url: /morea/materials/tux.jpg
 morea_sort_order: 3
