@@ -19,7 +19,7 @@ In this practice WOD you will create 2 programs that use for loops.
 Create a program that does the following:
 
 1. Print the numbers from 1 to 10 (inclusive). Each number should be on a separate line.
-1. Print the multiples of 5 from 10 through -25 (inclusive). The numbers should each be separated by a space. (*Hint*: use the `end` parameter to the print function like we did in class; see loop_fun.py.) Don’t forget to print a newline after this loop by calling `print()` with no parameters.
+1. Print the multiples of 5 from 10 through -25 (inclusive) on the same line. The numbers should each be separated by a space. (*Hint*: use the `end` parameter to the print function like we did in class; see loop_fun.py.) Don’t forget to print a newline after this loop by calling `print()` with no parameters.
 1. Print the multiples of 3 from -3 to 21 (inclusive). Each number should be separated by a comma and a space. There should not be a comma after the final number (21). 
 
 ## average.py
