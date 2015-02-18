@@ -16,6 +16,7 @@ morea_experiences:
  - ca-5
  - pwod4
  - pwod5
+ - wod3
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/branch.jpg
