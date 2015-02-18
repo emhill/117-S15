@@ -27,7 +27,7 @@ morea_labels:
         * degrees_f: holds a temperature in degrees fahrenheit (86)
         * degrees_c: holds the temperature in degrees celsius. To convert fahrenheit to celsius, deduct 32 from the fahrenheit temperature and multiply by 5/9.
     1. Prints the values of both variables with a string description, such as: "F degrees fahrenheit = C degrees celsius", replacing F & C with the values of your variables.
-4. Run your python program: `python3 temp.py`. The grees celsius should be `30`
+4. Run your python program: `python3 temp.py`. The degrees celsius should be `30`.
 5. Once you're satisfied that your programs are working correctly, zip it for submission:
     - `cd ..`
     - `zip wod2_uLogin.zip wod2_uLogin/*`
@@ -50,7 +50,7 @@ Answer the following questions when you submit your zip file to moodle:
     1. c = x / y
     1. d = y * (a ** y)
 3. What would be an appropriate name and data type for the following variables:
-	1. A figure scating average score
+	1. A figure skating average score
     1. The Olympic Athlete with the most gold medals   
     1. The number of gold medals 
 

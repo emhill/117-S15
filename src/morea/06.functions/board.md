@@ -1,7 +1,7 @@
 ---
 title: "Board & Demo Notes"
 published: true
-morea_id: reading-board5
+morea_id: board6
 morea_summary: "In class 2/20-2/27"
 morea_type: reading
 morea_labels:

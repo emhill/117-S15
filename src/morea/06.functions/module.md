@@ -9,6 +9,7 @@ morea_outcomes:
 morea_readings:
  - reading-TP36
  - slides-fun
+ - board6
  - reading-TP5.8 
  - reading-cs5-2
  - reading-TP4
