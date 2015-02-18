@@ -9,8 +9,8 @@ if DoW == "sun":
 elif DoW == "sat" or DoW == "satur":
 	print("Wake up at 9 am")
 elif DoW == "mon" or DoW == "tues" or \
-DoW == "wednes" or DoW == "wed" or DoW == "thurs" \
-or DoW == "fri":
+DoW == "wednes" or DoW == "wed" or DoW == "thurs" or \
+DoW == "fri":
 	print("Wake up at 7 am")
 else:
 	print("Invalid day")
