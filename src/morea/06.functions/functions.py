@@ -10,9 +10,11 @@ def dbl_var(myArgument):
   return myResult
 
 def quad(x):
+  print("quad")
   return 4 * x
 
 def quad_compose(x):
+  print("quad_compose")
   return dbl(dbl(x))
 
 

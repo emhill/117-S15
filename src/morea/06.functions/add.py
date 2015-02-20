@@ -14,7 +14,9 @@ print("=", sum)
 Next step: write a function that multiplies two numbers
 WITHOUT printing anything
 """
+def multiply(x, y):
+	return x * y
 
 #print("%d * %d = %d" % (4, 5, multiply(4, 5)))
 #### OR ####
-#print(4, "*", 5, "=", multiply(4, 5) )
+print(4, "*", 5, "=", multiply(4, 5) )
