@@ -11,5 +11,5 @@ def h(x):
 	else:             # x even
 		return f(f(x))
 
-print(h(3))
 print(h(4))
+print(h(3))

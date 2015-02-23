@@ -10,18 +10,17 @@ morea_sort_order: 0
 
 # Board & Demo Notes
 
-<!--## Python Boolean Comparison Operators
 
-Regarding order of operations & precedence:<BR>
-<a href="operators.JPG"><img src="operators.jpg" width="250"/></a><BR>
+<a href="learning.jpg"><img src="learning.jpg" width="300"/></a><BR>
 
-Examples with equals:<BR>
-<a href="equals.JPG"><img src="equals.JPG" width="400"/></a><BR>-->
+**The stages of python learning:**
 
+1. Can you predict what a program will do/output?
+2. Can you change an existing program to do something similar?
+3. Write a program from scratch, given a description of what it should do.
+ 
 
-## Example program(s) 
-
-### from 2/20
+## Example programs from 2/20 & 2/23
 
  * [functions.py](functions.py)
  * [my_fun.py](my_fun.py)
@@ -30,3 +29,7 @@ Examples with equals:<BR>
  * [add.py](add.py)
 
 
+## In class example 2/23
+
+`h(4)` in flow.py:<BR>
+<a href="h4.JPG"><img src="h4.JPG" width="400"/></a><BR>
