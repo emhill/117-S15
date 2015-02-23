@@ -17,6 +17,6 @@ WITHOUT printing anything
 def multiply(x, y):
 	return x * y
 
-#print("%d * %d = %d" % (4, 5, multiply(4, 5)))
+print("%s: %d * %d = %.2f" % ("multiply", 4, 5, multiply(4, 5)))
 #### OR ####
 print(4, "*", 5, "=", multiply(4, 5) )
