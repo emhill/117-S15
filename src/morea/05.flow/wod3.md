@@ -16,7 +16,7 @@ In this WOD you will create 2 programs that explore getting user input as well a
 
 ## sum.py
 
-Create a program that calculates the sum of a series of 5 real (i.e., decimal) numbers entered by the user. Make sure you ask (i.e., prompt) the user to enter each number (the user will hit enter after each number).
+Create a program that calculates the sum of a series of 5 real (i.e., decimal) numbers entered by the user using a loop. Make sure you ask (i.e., prompt) the user to enter each number (the user will hit enter after each number).
 
 ## is_even.py
 
