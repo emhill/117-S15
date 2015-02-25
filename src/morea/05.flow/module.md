@@ -18,6 +18,8 @@ morea_experiences:
  - pwod5
  - wod3
 morea_assessments:
+ - grade-hw4
+ - grade-wod3
 morea_type: module
 morea_icon_url: /morea/materials/branch.jpg
 morea_sort_order: 5
