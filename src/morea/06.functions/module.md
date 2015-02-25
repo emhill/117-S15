@@ -17,7 +17,7 @@ morea_readings:
 morea_experiences:
  - ca6
  - pwod6
- - wod4
+
 morea_assessments:
  - grade-hw5
 morea_type: module
