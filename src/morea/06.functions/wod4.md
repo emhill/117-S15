@@ -17,7 +17,7 @@ morea_labels:
 
   * `mkdir wod4_uLogin`
   * `cd wod4_uLogin`
-  * `touch hello.py is_odd.py square.py`
+  * `touch is_odd.py square.py`
 
 *Don't forget to add a comment at the top of the program with your name and what the program does.*
 
