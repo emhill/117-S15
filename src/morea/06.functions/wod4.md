@@ -1,6 +1,6 @@
 ---
 title: "WOD4: Functions"
-published: false
+published: true
 morea_id: wod4
 morea_type: experience
 morea_sort_order: 5
