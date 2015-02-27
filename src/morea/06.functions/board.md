@@ -33,3 +33,6 @@ morea_sort_order: 0
 
 `h(4)` in flow.py:<BR>
 <a href="h4.JPG"><img src="h4.JPG" width="400"/></a><BR>
+
+## Example programs from 2/27 
+ * [factorial.py](factorial.py)
