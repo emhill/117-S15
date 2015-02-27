@@ -20,7 +20,7 @@ morea_sort_order: 0
 3. Write a program from scratch, given a description of what it should do.
  
 
-## Example programs from 2/20 & 2/23
+## Examples from 2/20 & 2/23
 
  * [functions.py](functions.py)
  * [my_fun.py](my_fun.py)
@@ -29,10 +29,26 @@ morea_sort_order: 0
  * [add.py](add.py)
 
 
-## In class example 2/23
-
 `h(4)` in flow.py:<BR>
 <a href="h4.JPG"><img src="h4.JPG" width="400"/></a><BR>
 
-## Example programs from 2/27 
+## Examples from 2/27 
  * [factorial.py](factorial.py)
+ * [sum.py](sum.py)
+ 
+
+Iterative solution to factorial using a loop:
+
+<a href="factorial-loop.JPG"><img src="factorial-loop.JPG" width="400"/></a>
+
+Manual walk thru of factorial using a recursive solution:
+
+<a href="manual-walkthru.JPG"><img src="manual-walkthru.JPG" width="300"/></a>
+
+Call sequence of infinite recursion (not reducing recursive step to the base case):
+
+<a href="infinite.jpg"><img src="infinite.jpg" width="100"/></a>
+
+Solutions to the `sum` practice problem:
+
+<a href="sum.jpg"><img src="sum.jpg" width="300"/></a>
