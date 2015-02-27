@@ -1,7 +1,7 @@
 # recursive factorial
 def factorial(n):
   '''This computes n!'''
-  if n == 0:	# base case
+  if n <= 1:	# base case
     return 1
   else:			# induction
     return n*factorial(n-1)
