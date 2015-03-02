@@ -18,6 +18,7 @@ morea_experiences:
  - ca6
  - pwod6
  - wod4
+ - project1
 morea_assessments:
  - grade-hw5
 morea_type: module
