@@ -9,6 +9,6 @@ morea_sort_order: 2
   
 ---
 
-<a href="results.png"><img src="results.png" width="500"></a>
+<a href="{{site.baseurl}}/morea/07.project1/results.png"><img src="{{site.baseurl}}/morea/07.project1/results.png" width="500"></a>
 
 Mean: 76

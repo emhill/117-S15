@@ -1,5 +1,5 @@
 ---
-title: "Midway Evaluation"
+title: "Putting it Together"
 published: true
 morea_coming_soon: false
 morea_id: project-turtle
