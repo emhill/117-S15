@@ -1,5 +1,5 @@
 ---
-title: "Project 1: Turtles"
+title: "Midway Evaluation"
 published: true
 morea_coming_soon: false
 morea_id: project-turtle
@@ -11,9 +11,10 @@ morea_readings:
 morea_experiences:
  - project1
 morea_assessments:
+ - grade-midterm
 morea_type: module
 morea_icon_url: /morea/materials/turtle.jpg
-morea_sort_order: 6
+morea_sort_order: 7
 ---
 
-Putting it all together.
+Project 1 (Turtles) & Midterm
