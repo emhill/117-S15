@@ -18,8 +18,10 @@ morea_experiences:
  - ca6
  - pwod6
  - wod4
+ - pwod7
 morea_assessments:
  - grade-hw5
+ - grade-wod4
 morea_type: module
 morea_icon_url: /morea/materials/fx.jpg
 morea_sort_order: 6
