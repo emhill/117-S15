@@ -21,7 +21,7 @@ morea_assessments:
  - grade-hw4
  - grade-wod3
 morea_type: module
-morea_icon_url: /morea/materials/branch.jpg
+morea_icon_url: /morea/materials/tree.png
 morea_sort_order: 5
 ---
 
