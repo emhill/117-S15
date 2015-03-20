@@ -41,7 +41,7 @@ Write a function `triangle_text` that takes a string of text as a parameter and 
 
 You may use *either* recursion *or* iteration in your solution.
 
-Next write a function `is_palindrome` that takes a string of text as a parameter and outputs whether or not the string is the same forward & backward. For example, "Anna", "civic", "rotator" are example palindrome words, and "A man, a plan, a canal: Panama" and "Emily’s sassy lime" are example palindrome phrases.
+Next write a function `is_palindrome` that takes a string of text as a parameter and outputs whether or not the string is the same forward & backward. For example, "Anna", "civic", and "rotator" are example palindrome words; "A man, a plan, a canal: Panama" and "Emily’s sassy lime" are example palindrome phrases.
 
 Test your functions by getting a string of text from the user and printing the results of both functions.
 
