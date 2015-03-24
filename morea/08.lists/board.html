@@ -80,6 +80,138 @@
   <li><a href="fibs2.py">fibs2.py</a></li>
 </ul>
 
+<p><a href="http://www.pythontutor.com/visualize.html#mode=edit">Python tutor</a> can help you visualize the order statements in your python programs are executed.</p>
+
+<h3 id="python-interactive-session-on-lists">Python Interactive Session on Lists</h3>
+
+<pre><code>admins-MacBook-Pro$ python3
+Python 3.4.1 (v3.4.1:c0e311e010fc, May 18 2014, 00:54:21) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; months = ["Jan", "Feb", 3, "Apr", "May", "JUNE"]
+&gt;&gt;&gt; months[1]
+'Feb'
+&gt;&gt;&gt; months[2]
+3
+&gt;&gt;&gt; months[0]
+'Jan'
+&gt;&gt;&gt; len(months)
+6
+&gt;&gt;&gt; months[5]
+'JUNE'
+&gt;&gt;&gt; months[-1]
+'JUNE'
+&gt;&gt;&gt; months[-2]
+'May'
+&gt;&gt;&gt; months[1:2]
+['Feb']
+&gt;&gt;&gt; months[1:3]
+['Feb', 3]
+&gt;&gt;&gt; months[1:4]
+['Feb', 3, 'Apr']
+&gt;&gt;&gt; months[1:4] * 3
+['Feb', 3, 'Apr', 'Feb', 3, 'Apr', 'Feb', 3, 'Apr']
+&gt;&gt;&gt; months[0] * 12
+'JanJanJanJanJanJanJanJanJanJanJanJan'
+&gt;&gt;&gt; months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+&gt;&gt;&gt; print(months)
+['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+&gt;&gt;&gt; academic = months[8:] + months[:8]
+&gt;&gt;&gt; print(academic)
+['Sep', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug']
+&gt;&gt;&gt; len(academic)
+12
+&gt;&gt;&gt; "Aug" in months
+True
+&gt;&gt;&gt; "Au" in months
+False
+&gt;&gt;&gt; for i in academic:
+...   print(i * 3)
+... 
+SepSepSep
+OctOctOct
+NovNovNov
+DecDecDec
+JanJanJan
+FebFebFeb
+MarMarMar
+AprAprApr
+MayMayMay
+JunJunJun
+JulJulJul
+AugAugAug
+&gt;&gt;&gt; vector1 = [45, 60, 50]
+&gt;&gt;&gt; vector2 = [32, 45, 2000]
+&gt;&gt;&gt; for i in vector1:
+...   print(i - vector2[0])
+... 
+13
+28
+18
+&gt;&gt;&gt; for i in range(3):
+...   print( vector1[i] - vector2[i] )
+... 
+13
+15
+-1950
+&gt;&gt;&gt; daysOfWeek = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"] 
+&gt;&gt;&gt; daysOfWeek[0:-1]
+['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri']
+&gt;&gt;&gt; daysOfWeek[0] daysOfWeek[]
+KeyboardInterrupt
+&gt;&gt;&gt; daysOfWeek[0] + daysOfWeek[-1]
+'SunSat'
+&gt;&gt;&gt; [daysOfWeek[0]] + [daysOfWeek[-1]]
+['Sun', 'Sat']
+&gt;&gt;&gt; daysOfWeek[0:0] + daysOfWeek[-1:-1]
+[]
+&gt;&gt;&gt; daysOfWeek[0:1] + daysOfWeek[-1:]
+['Sun', 'Sat']
+&gt;&gt;&gt; daysOfWeek[1:5]
+['Mon', 'Tues', 'Wed', 'Thurs']
+&gt;&gt;&gt; daysOfWeek[1:6]
+['Mon', 'Tues', 'Wed', 'Thurs', 'Fri']
+&gt;&gt;&gt; daysOfWeek[1:-1]
+['Mon', 'Tues', 'Wed', 'Thurs', 'Fri']
+&gt;&gt;&gt; (daysOfWeek[0:1] + daysOfWeek[-1:]) * 3
+['Sun', 'Sat', 'Sun', 'Sat', 'Sun', 'Sat']
+&gt;&gt;&gt; week = daysOfWeek[0:1] + daysOfWeek[-1:]
+&gt;&gt;&gt; daysOfWeek[0:1] + daysOfWeek[-1:] = week
+  File "&lt;stdin&gt;", line 1
+SyntaxError: can't assign to operator
+&gt;&gt;&gt; week * 3
+['Sun', 'Sat', 'Sun', 'Sat', 'Sun', 'Sat']
+&gt;&gt;&gt; string = "hello"
+&gt;&gt;&gt; string.upper()
+'HELLO'
+&gt;&gt;&gt; print(string)
+hello
+&gt;&gt;&gt; string = string.upper()
+&gt;&gt;&gt; print(string)
+HELLO
+&gt;&gt;&gt; daysOfWeek.reverse()
+&gt;&gt;&gt; print(daysOfWeek)
+['Sat', 'Fri', 'Thurs', 'Wed', 'Tues', 'Mon', 'Sun']
+&gt;&gt;&gt; string[0] = 'u'
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+TypeError: 'str' object does not support item assignment
+&gt;&gt;&gt; daysOfWeek[0] = "HelloDay"
+&gt;&gt;&gt; print(daysOfWeek)
+['HelloDay', 'Fri', 'Thurs', 'Wed', 'Tues', 'Mon', 'Sun']
+&gt;&gt;&gt; dow = daysOfWeek
+&gt;&gt;&gt; print(dow)
+['HelloDay', 'Fri', 'Thurs', 'Wed', 'Tues', 'Mon', 'Sun']
+&gt;&gt;&gt; print(daysOfWeek)
+['HelloDay', 'Fri', 'Thurs', 'Wed', 'Tues', 'Mon', 'Sun']
+&gt;&gt;&gt; dow[0] = "Saturday"
+&gt;&gt;&gt; print(dow)
+['Saturday', 'Fri', 'Thurs', 'Wed', 'Tues', 'Mon', 'Sun']
+&gt;&gt;&gt; print(daysOfWeek)
+['Saturday', 'Fri', 'Thurs', 'Wed', 'Tues', 'Mon', 'Sun']
+&gt;&gt;&gt; 
+</code></pre>
+
 </div>
 
 
@@ -93,7 +225,7 @@
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-03-19 23:09:15 -0400</span></p>
+       Last update on: <span>2015-03-24 15:37:07 -0400</span></p>
     <p style="margin: 0">
       8 modules
       
