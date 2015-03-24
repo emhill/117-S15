@@ -1,7 +1,7 @@
 ---
 title: "Computer Science: Realities and Myths"
 published: true
-morea_id: reading-cs5intro
+morea_id: reading-cs5-3
 morea_summary: "What is Computer Science? What does it mean to program an algorithm?"
 morea_type: reading
 morea_labels:

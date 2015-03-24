@@ -11,6 +11,7 @@ morea_readings:
  - slides-strings
  - board8
  - slides-lists
+ - reading-cs5-3
  - slides-lc
 morea_experiences:
  - ca-6
