@@ -16,7 +16,7 @@ In this practice WOD you will create 3 programs that use strings, lists, and rec
 
 ## text.py
 
-Write a function `triangle_text` that takes a string of text as a parameter and outputs the text as follows:
+Write a function `pyramid` that takes a string of text as a parameter and outputs the text as follows:
 
     Enter text: we love CS
 	w
