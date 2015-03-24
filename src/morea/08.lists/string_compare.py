@@ -11,3 +11,6 @@ elif str1 > str2:
     print("Alphabetically,", str2, "comes before", str1 + ".")
 else:
     print("You tried to trick me!", str1, "and", str2, "are the same word!")
+
+
+print(str1 * 4)

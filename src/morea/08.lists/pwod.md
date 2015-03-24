@@ -10,9 +10,9 @@ morea_labels:
 ---
 # Practice WOD8: Recursion & Lists
 
-<!--In this practice WOD you will create 5 programs that take code we've previously written for other PWODs and turns them into functions.
+In this practice WOD you will create 3 programs that use strings, lists, and recursion.
 
-{% include wod-times.html Rx="<20 min" Av="20-40 min" Sd="40-60 min" DNF="60+ min" %}-->
+{% include wod-times.html Rx="<30 min" Av="30-60 min" Sd="60-90 min" DNF="90+ min" %}
 
 ## text.py
 
@@ -45,6 +45,8 @@ Next write a function `is_palindrome` that takes a string of text as a parameter
 
 Test your functions by getting a string of text from the user and printing the results of both functions.
 
+<!--## baby_mangle.py-->
+
 ## mode.py
 
 Create a program that calculates the most frequently occurring number in a list of 10 numbers entered by the user. Make sure you ask (i.e., prompt) the user to enter each number (the user will hit enter after each number). You may use the python [mode](https://docs.python.org/3.4/library/statistics.html#statistics.mode) function.
@@ -60,10 +62,11 @@ Test both functions by asking the user to enter a word, and printing the number 
 
 ## Demonstration
 
-*Coming soon...*
+<!--*Coming soon...*-->
 
-<!--Once you've finished doing the WOD a single time, you can watch me do it:
+Once you've finished doing the WOD a single time, you can watch me do it:
 
-{% include youtube.html id="0BPlMXkwdcY" %}
+{% include youtube.html id="WkfjTgUHR6Y" %}
 
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
+
