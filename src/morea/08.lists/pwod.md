@@ -66,11 +66,11 @@ Test both functions by asking the user to enter a word, and printing the number 
 
 Once you've finished doing the WOD a single time, you can watch me do it:
 
-{% include youtube.html id="Z9jwFA0idsw" %}
+{% include youtube.html id="hsjv5f2DlFk" %}
 
 Recursive solution to pyramid function in text.py:
 
-{% include youtube.html id="b8XsBVgBoH0" %}
+{% include youtube.html id="yBrjRTtFiTE" %}
 
 {% include wod-warning.html %}
 
