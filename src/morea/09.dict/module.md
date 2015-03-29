@@ -17,7 +17,7 @@ morea_experiences:
  - ca-7
 morea_assessments:
 morea_type: module
-morea_icon_url: /morea/materials/dictionary.png
+morea_icon_url: /morea/materials/dictionary.jpg
 morea_sort_order: 8
 ---
 
