@@ -17,6 +17,7 @@ morea_readings:
 morea_experiences:
  - ca-6
  - pwod8
+ - wod5
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/yarn.png

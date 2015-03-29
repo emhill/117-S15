@@ -6,7 +6,7 @@ morea_summary: "Think Python Chapter 12"
 morea_type: reading
 morea_labels:
  - 9 pages
- - recommended by 3/25
+ - recommended
 morea_sort_order: 2
 ---
 # Tuples
