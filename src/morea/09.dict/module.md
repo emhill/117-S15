@@ -2,7 +2,7 @@
 title: "Dictionaries & Files"
 published: true
 morea_coming_soon: false
-morea_id: lists
+morea_id: dictionaries
 morea_outcomes:
  - outcome-python
  - outcome-7skills
