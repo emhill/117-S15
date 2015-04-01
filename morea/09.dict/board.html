@@ -71,6 +71,7 @@
 <ul>
   <li><a href="while.py">while.py</a></li>
   <li><a href="whilevsfor.py">whilevsfor.py</a> </li>
+  <li><a href="while_practice.py">while_practice.py</a> – wrote in class</li>
   <li><a href="loop.py">loop.py</a></li>
   <li><a href="scope.py">scope.py</a></li>
   <li><a href="data.zip">data.zip</a> (for the file examples below)</li>
@@ -84,23 +85,218 @@
   <li><a href="writeSumReport.py">writeSumReport.py</a></li>
 </ul>
 
-<!--## Board Notes 3/25
+<h2 id="console-notes-41">Console Notes 4/1</h2>
 
-Mutable vs. immutable data structure updates:
+<pre><code>admins-MacBook-Pro-3:09.dict emily$ python3 while_practice.py 
+1
+2
+3
+4
+5
+admins-MacBook-Pro-3:09.dict emily$ python3 while_practice.py 
+1
+2
+3
+4
+5
+2
+5
+8
+11
+admins-MacBook-Pro-3:09.dict emily$ python3 while_practice.py 
+A:
+1
+2
+3
+4
+5
 
-<a href="mutable.jpg"><img src="mutable.jpg" width="200"/></a>
+B:
+2
+5
+8
+11
+admins-MacBook-Pro-3:09.dict emily$ python3 while_practice.py 
+A:
+1
+2
+3
+4
+5
 
-Comparing basic python data structures:
+B:
+2
+5
+8
+11
 
-<a href="ds.png"><img src="ds.png" width="500"/></a>
+C:
+****
+****
+****
+admins-MacBook-Pro-3:09.dict emily$ ls
+ascii_dictionary.py  reading-TP.md
+avgData.py           reading-TP2.md
+board.md             reading-TP3.md
+ca.md                scope.py
+data                 slides.md
+data.zip             slides2.md
+file_read.py         using_dictionary.py
+file_read2.py        while.py
+file_read_while.py   while_practice.py
+file_write.py        whilevsfor.py
+loop.py              writeSumReport.py
+module.md            years_dictionary.py
+reading-CS5.md       years_dictionary2.py
+admins-MacBook-Pro-3:09.dict emily$ ls data
+alaska.dat       majors.dat       songs.txt
+famous_pairs.txt movies.txt       virginia.dat
+florida.dat      nodata.dat       years.dat
+grammy_noms.txt  oscars.txt       years2.dat
+majors.all.dat   report.dat
+admins-MacBook-Pro-3:09.dict emily$ cat data/songs.txt 
+Adele's Rolling In The Deep
+Taylor Swift's Mean
+Foster the People's Pumped Up Kicks
+Maroon 5 &amp; Christina Aguilera's Moves Like Jagger
+Bruno Mars' Doo-Wops &amp; Hooligans
+Katy Perry's Firework
+Lady Gaga's Born This Way
+Adele's Someone Like You
+admins-MacBook-Pro-3:09.dict emily$ python3
+Python 3.4.1 (v3.4.1:c0e311e010fc, May 18 2014, 00:54:21) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; dataFile = open("data/songs.txt", "r")
+&gt;&gt;&gt; data = dataFile.read()
+&gt;&gt;&gt; print(data)
+Adele's Rolling In The Deep
+Taylor Swift's Mean
+Foster the People's Pumped Up Kicks
+Maroon 5 &amp; Christina Aguilera's Moves Like Jagger
+Bruno Mars' Doo-Wops &amp; Hooligans
+Katy Perry's Firework
+Lady Gaga's Born This Way
+Adele's Someone Like You
 
-The difference between variable and list assignments:
+&gt;&gt;&gt; data.upper()
+"ADELE'S ROLLING IN THE DEEP\nTAYLOR SWIFT'S MEAN\nFOSTER THE PEOPLE'S PUMPED UP KICKS\nMAROON 5 &amp; CHRISTINA AGUILERA'S MOVES LIKE JAGGER\nBRUNO MARS' DOO-WOPS &amp; HOOLIGANS\nKATY PERRY'S FIREWORK\nLADY GAGA'S BORN THIS WAY\nADELE'S SOMEONE LIKE YOU\n"
+&gt;&gt;&gt; dataFile.close()
+&gt;&gt;&gt; dataFile = open("data/songs.txt")
+&gt;&gt;&gt; data = dataFile.read()
+&gt;&gt;&gt; print(data)
+Adele's Rolling In The Deep
+Taylor Swift's Mean
+Foster the People's Pumped Up Kicks
+Maroon 5 &amp; Christina Aguilera's Moves Like Jagger
+Bruno Mars' Doo-Wops &amp; Hooligans
+Katy Perry's Firework
+Lady Gaga's Born This Way
+Adele's Someone Like You
 
-<a href="assignment.jpg"><img src="assignment.jpg" width="400"/></a>
-
-Equivalent loop for a list comprehension on the slides:
-
-<a href="LC.jpg"><img src="LC.jpg" width="300"/></a>-->
+&gt;&gt;&gt; dataFile.write("Flick of that Wrist\n")
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+io.UnsupportedOperation: not writable
+&gt;&gt;&gt; dataFile.close()
+&gt;&gt;&gt; dataFile = open("data/songs.txt", "a")
+&gt;&gt;&gt; dataFile.write("Flick of that Wrist\n")
+20
+&gt;&gt;&gt; dataFile.read()
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+io.UnsupportedOperation: not readable
+&gt;&gt;&gt; exit()
+admins-MacBook-Pro-3:09.dict emily$ cat data/songs.txt 
+Adele's Rolling In The Deep
+Taylor Swift's Mean
+Foster the People's Pumped Up Kicks
+Maroon 5 &amp; Christina Aguilera's Moves Like Jagger
+Bruno Mars' Doo-Wops &amp; Hooligans
+Katy Perry's Firework
+Lady Gaga's Born This Way
+Adele's Someone Like You
+Flick of that Wrist
+admins-MacBook-Pro-3:09.dict emily$ cp data/songs.txt data/songs2.txt 
+admins-MacBook-Pro-3:09.dict emily$ python3
+Python 3.4.1 (v3.4.1:c0e311e010fc, May 18 2014, 00:54:21) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; dataFile = open("data/songs2.txt", "w")
+&gt;&gt;&gt; dataFile.write("Sgt. Pepper's Lonely Hearts Club Band")
+37
+&gt;&gt;&gt; exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+&gt;&gt;&gt; exit()
+admins-MacBook-Pro-3:09.dict emily$ cat data/songs2.txt 
+Sgt. Pepper's Lonely Hearts Club Bandadmins-MacBook-Pro-3:09.dict emily$ cat data/songs.txt 
+Adele's Rolling In The Deep
+Taylor Swift's Mean
+Foster the People's Pumped Up Kicks
+Maroon 5 &amp; Christina Aguilera's Moves Like Jagger
+Bruno Mars' Doo-Wops &amp; Hooligans
+Katy Perry's Firework
+Lady Gaga's Born This Way
+Adele's Someone Like You
+Flick of that Wrist
+admins-MacBook-Pro-3:09.dict emily$ python3
+Python 3.4.1 (v3.4.1:c0e311e010fc, May 18 2014, 00:54:21) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; dataFile = open("data/songs2.txt", "r")
+&gt;&gt;&gt; type(dataFile)
+&lt;class '_io.TextIOWrapper'&gt;
+&gt;&gt;&gt; print(dataFile)
+&lt;_io.TextIOWrapper name='data/songs2.txt' mode='r' encoding='UTF-8'&gt;
+&gt;&gt;&gt; exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+&gt;&gt;&gt; exit()
+admins-MacBook-Pro-3:09.dict emily$ ls
+ascii_dictionary.py  reading-TP.md
+avgData.py           reading-TP2.md
+board.md             reading-TP3.md
+ca.md                scope.py
+data                 slides.md
+data.zip             slides2.md
+file_read.py         using_dictionary.py
+file_read2.py        while.py
+file_read_while.py   while_practice.py
+file_write.py        whilevsfor.py
+loop.py              writeSumReport.py
+module.md            years_dictionary.py
+reading-CS5.md       years_dictionary2.py
+admins-MacBook-Pro-3:09.dict emily$ ped file_read*
+admins-MacBook-Pro-3:09.dict emily$ open board.md 
+admins-MacBook-Pro-3:09.dict emily$ ll -rt
+total 224
+-rw-r--r--   1 emily  staff   933B Mar 30 10:02 years_dictionary2.py
+-rw-r--r--   1 emily  staff   1.0K Mar 30 10:02 years_dictionary.py
+-rw-r--r--   1 emily  staff   1.2K Mar 30 10:02 using_dictionary.py
+-rw-r--r--   1 emily  staff   218B Mar 30 10:02 slides.md
+-rw-r--r--   1 emily  staff   371B Mar 30 10:02 reading-TP3.md
+-rw-r--r--   1 emily  staff   488B Mar 30 10:02 reading-TP2.md
+-rw-r--r--   1 emily  staff   379B Mar 30 10:02 reading-TP.md
+-rw-r--r--   1 emily  staff   475B Mar 30 10:02 reading-CS5.md
+-rw-r--r--   1 emily  staff   650B Mar 30 10:02 ca.md
+-rw-r--r--   1 emily  staff   468B Mar 30 10:02 ascii_dictionary.py
+-rw-r--r--   1 emily  staff   1.7K Apr  1 10:59 writeSumReport.py
+-rw-r--r--   1 emily  staff   182B Apr  1 10:59 whilevsfor.py
+-rw-r--r--   1 emily  staff    72B Apr  1 10:59 while.py
+-rw-r--r--   1 emily  staff   224B Apr  1 10:59 slides2.md
+-rw-r--r--   1 emily  staff    91B Apr  1 10:59 scope.py
+-rw-r--r--   1 emily  staff   434B Apr  1 10:59 module.md
+-rw-r--r--   1 emily  staff    53B Apr  1 10:59 loop.py
+-rw-r--r--   1 emily  staff   575B Apr  1 10:59 file_write.py
+-rw-r--r--   1 emily  staff   195B Apr  1 10:59 file_read_while.py
+-rw-r--r--   1 emily  staff   554B Apr  1 10:59 file_read2.py
+-rw-r--r--   1 emily  staff   471B Apr  1 10:59 file_read.py
+-rw-r--r--   1 emily  staff    13K Apr  1 10:59 data.zip
+-rwxr-xr-x   1 emily  staff   1.2K Apr  1 10:59 board.md
+-rw-r--r--   1 emily  staff   1.1K Apr  1 10:59 avgData.py
+-rw-r--r--@  1 emily  staff   249B Apr  1 11:34 while_practice.py
+drwxr-xr-x  17 emily  staff   578B Apr  1 11:46 data
+admins-MacBook-Pro-3:09.dict emily$ 
+</code></pre>
 
 </div>
 
@@ -115,7 +311,7 @@ Equivalent loop for a list comprehension on the slides:
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-04-01 00:32:44 -0400</span></p>
+       Last update on: <span>2015-04-01 12:00:57 -0400</span></p>
     <p style="margin: 0">
       9 modules
       
