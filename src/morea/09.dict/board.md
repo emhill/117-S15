@@ -14,7 +14,22 @@ morea_sort_order: 0
 
  * [ascii_dictionary.py](ascii_dictionary.py)
  * [using_dictionary.py](using_dictionary.py)
- 
+
+## Examples from 4/1
+
+ * [while.py](while.py)
+ * [whilevsfor.py](whilevsfor.py) 
+ * [loop.py](loop.py)
+ * [scope.py](scope.py)
+ * [data.zip](data.zip) (for the file examples below)
+ * [file_read.py](file_read.py)
+ * [file_read2.py](file_read2.py)
+ * [file_read_while.py](file_read_while.py)
+ * [file_write.py](file_write.py)
+ * [avgData.py](avgData.py)
+ * [years_dictionary.py](years_dictionary.py)
+ * [years_dictionary2.py](years_dictionary2.py)
+ * [writeSumReport.py](writeSumReport.py)
 
 <!--## Board Notes 3/25
 

@@ -9,6 +9,7 @@ morea_outcomes:
 morea_readings:
  - reading-TP11
  - slides-dict
+ - slides-files
  - board9
  - reading-TP7-14
  - reading-TP9
