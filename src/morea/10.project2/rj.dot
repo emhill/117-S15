@@ -1,0 +1,13 @@
+graph {
+"Montague" -- {"Benvolio" "Escalus" "Romeo"}
+"Nurse" -- {"Juliet"}
+"Romeo" -- {"Friar Laurence" "Montague" "Benvolio" "Juliet" "Mercutio"}
+"Paris" -- {"Escalus" "Mercutio" "Capulet"}
+"Juliet" -- {"Friar Laurence" "Tybalt" "Nurse" "Romeo" "Capulet"}
+"Benvolio" -- {"Montague" "Romeo"}
+"Friar Laurence" -- {"Romeo" "Juliet"}
+"Tybalt" -- {"Juliet" "Capulet"}
+"Escalus" -- {"Montague" "Paris" "Mercutio" "Capulet"}
+"Mercutio" -- {"Escalus" "Paris" "Romeo"}
+"Capulet" -- {"Tybalt" "Escalus" "Paris" "Juliet"}
+}

@@ -1,0 +1,15 @@
+graph {
+"Crabbe" -- {"Draco Malfoy"}
+"Pansy Parkinson" -- {"Draco Malfoy"}
+"Severus Snape" -- {"Draco Malfoy"}
+"Goyle" -- {"Draco Malfoy"}
+"Neville Longbottom" -- {"Ginny Weasley" "Luna Lovegood"}
+"Cho Chang" -- {"Harry Potter"}
+"Draco Malfoy" -- {"Crabbe" "Pansy Parkinson" "Severus Snape" "Goyle"}
+"Ginny Weasley" -- {"Neville Longbottom" "Hermione Granger" "Harry Potter" "Ron Weasley"}
+"Ron Weasley" -- {"Lavender Brown" "Hermione Granger" "Harry Potter" "Ginny Weasley"}
+"Luna Lovegood" -- {"Neville Longbottom" "Harry Potter"}
+"Hermione Granger" -- {"Ginny Weasley" "Harry Potter" "Ron Weasley"}
+"Lavender Brown" -- {"Ron Weasley"}
+"Harry Potter" -- {"Luna Lovegood" "Cho Chang" "Hermione Granger" "Ron Weasley" "Ginny Weasley"}
+}
