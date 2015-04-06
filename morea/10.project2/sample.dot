@@ -1,0 +1,11 @@
+graph friends { 
+
+	"Harry Potter" -- {"Hermione Granger" "Ron Weasley"}
+	"Harry Potter" -- {"Cho Chang" "Ginny Weasley" "Luna Lovegood"}
+	"Ron Weasley" -- {"Hermione Granger" "Ginny Weasley" "Lavender Brown"}
+	"Ginny Weasley" -- "Hermione Granger"
+	"Neville Longbottom" -- {"Luna Lovegood" "Ginny Weasley"}
+
+	"Severus Snape" -- "Draco Malfoy"
+	"Draco Malfoy" -- {"Crabbe" "Goyle" "Pansy Parkinson"}
+}
