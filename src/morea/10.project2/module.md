@@ -12,7 +12,7 @@ morea_experiences:
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/sn.jpg
-morea_sort_order: 7
+morea_sort_order: 11
 ---
 
 Project 2 & Final Exam
