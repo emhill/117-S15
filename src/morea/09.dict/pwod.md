@@ -20,7 +20,7 @@ Create a program `while.py` that declares the following set:
 
 `s = {"A", "B", "C", "D", "E"}`
 
-and prints a random element of the set until the first element is printed. In other words, the while loop continues printing letters in the set `s` until "A" is printed. See Step 4 in [Project2's](/morea/10.project2/Project2.docx) Background Learning for hints on how to randomly print an element from a set.
+and prints a random element of the set until the first element is printed. In other words, the while loop continues printing letters in the set `s` until "A" is printed. See Step 4 in [Project2's]({{site.baseurl}}/morea/10.project2/Project2.docx) Background Learning for hints on how to randomly print an element from a set.
 
 Create another set:
 
@@ -46,7 +46,7 @@ Create a program `dictionary.py` that creates a simple dictionary with two keys,
 
 ## count.py
 
-Write a program `count.py` that reads in the file [`turing.txt`](data/turing.txt) and counts the number of occurrences of the word "the". 
+Write a program `count.py` that reads in [the file `turing.txt`](data/turing.txt) and counts the number of occurrences of the word "the". 
 
 ***Hints:***
 
@@ -57,7 +57,7 @@ Write a program `count.py` that reads in the file [`turing.txt`](data/turing.txt
 
 ## frequency.py
 
-Write a program `frequency.py` that reads in the file [`turing.txt`](data/turing.txt) and counts the number of occurrences of each word. Your program should print out these word occurrences in sorted order by decreasing frequency value. For example, "the" occurs 10 times and would be printed out before "Alan", which occurs just once.
+Write a program `frequency.py` that reads in [the file `turing.txt`](data/turing.txt) and counts the number of occurrences of each word. Your program should print out these word occurrences in sorted order by decreasing frequency value. For example, "the" occurs 10 times and would be printed out before "Alan", which occurs just once.
 
 Your program should not take in any user input, just read in the hard-coded filename `"turing.txt"`. You may use any example template to read in the file (for loop, while loop, etc).
 
