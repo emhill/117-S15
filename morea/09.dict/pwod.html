@@ -59,7 +59,7 @@
 <div class="container">
   <h1 id="practice-wod9-sets-dictionaries-files--while">Practice WOD9: Sets, Dictionaries, Files, &amp; While</h1>
 
-<p>In this practice WOD you will create 4 programs that use data structures (sets, dictionaries), input/output from files, and while loops.</p>
+<p>In this practice WOD you will create 4 programs that use data structures (i.e., sets, lists, tuples, and dictionaries), input/output from files, and while loops.</p>
 
 <p><span class="h4">
   <span style="padding: 2px" class="label label-success">Rx: &lt;45 min</span>
@@ -68,29 +68,46 @@
   <span style="padding: 2px" class="label label-danger">DNF: 135+ min</span>
 </span></p>
 
+<p>The last program, frequency.py, will likely take as long to implement as the first 3 programs. I recommend completing the first 3, and watching the video for those if you didn’t complete them, <em>before</em> attempting frequency.py.</p>
+
 <h2 id="whilepy">while.py</h2>
 
 <p>Create a program <code>while.py</code> that declares the following set:</p>
 
 <p><code>s = {"A", "B", "C", "D", "E"}</code></p>
 
-<p>and prints a random element of the set until the first element is printed. In other words, the while loop continues printing letters in the set <code>s</code> until “A” is printed.</p>
-
-<p>See Step 4 in <a href="/117-S15/morea/10.project2/Project2.docx">Project2’s</a> Background Learning for hints on how to randomly print an element from a set. For more information see the <a href="https://docs.python.org/3.4/library/random.html#random.sample">random sample function</a>.</p>
-
-<p>I recommend following the sentinel while loop design pattern:</p>
-
-<pre><code>value = initialize
-while value != sentinel:
-  process value
-  value = updated value
-</code></pre>
+<p>and prints a random element of the set until the first element is sampled. In other words, the while loop continues printing letters in the set <code>s</code> until “A” is the next letter. The output should have no “A”’s.</p>
 
 <p>Then, create another set:</p>
 
 <p><code>r = {"A", "C", "E", "G"}</code></p>
 
 <p>and print the results of the following <a href="https://docs.python.org/3.4/library/stdtypes.html#set">set operations</a>: union, intersection, and difference.</p>
+
+<p><strong><em>Hints:</em></strong></p>
+
+<ul>
+  <li>
+    <p>See Step 4 in <a href="/117-S15/morea/10.project2/Project2.docx">Project2’s</a> Background Learning for hints on how to randomly print an element from a set. For more information see the <a href="https://docs.python.org/3.4/library/random.html#random.sample">random sample function</a>.</p>
+  </li>
+  <li>
+    <p>I recommend following the sentinel while loop pattern:</p>
+
+    <pre><code>value = initialize
+while value != sentinel:
+  process value
+  value = updated value
+</code></pre>
+  </li>
+</ul>
+
+<p><strong><em>Recommended Development Steps:</em></strong></p>
+
+<ol>
+  <li>Create the set <code>s</code> and print it out</li>
+  <li>Print out a random sample of 1 element from <code>s</code> instead</li>
+  <li>Use the sentinal template above to create a while loop that prints out a random letter until the value is “A”</li>
+</ol>
 
 <h2 id="dictionarypy">dictionary.py</h2>
 
@@ -108,7 +125,7 @@ while value != sentinel:
   <li>Write a loop that prints out the numbers from 1 to 10</li>
   <li>In this loop, print out whether the number is even or odd</li>
   <li>Create a set for even and a set for odd numbers. Instead of printing in the loop, add the number to the appropriate set. Print out the sets after the loop.</li>
-  <li>Replace your set variables by adding them to a dictionary <code>d</code> instead. For example, if you had a set named <code>even</code>, replace every occurrence of that variable with <code>d[even]</code>. Print out the dictionary after your loop to confirm the behavior is the same.</li>
+  <li>Replace your set variables by adding them to a dictionary <code>d</code> instead. For example, if you had a set named <code>even</code>, replace every occurrence of that variable with <code>d['even']</code>. Make sure you initialize <code>d</code> to be an empty dictionary (<code>d = {}</code>). Print out the dictionary after your loop to confirm the behavior is the same as in the prior step.</li>
   <li>Instead of printing to the screen, print the dictionary to the file <code>even_odd.txt</code>. See Step 3 in <a href="/117-S15/morea/10.project2/Project2.docx">Project2’s</a> Background Learning for hints on how to output to a file.</li>
 </ol>
 
@@ -139,7 +156,24 @@ while value != sentinel:
 
 <ol>
   <li>Read in the file &amp; print it back out.</li>
-  <li>Read in the file, split each line on spaces, &amp; print each word on a separate line.</li>
+  <li>Read in the file, split each line on spaces, &amp; print each word on a separate line.
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>To check your work, use the UNIX command ` python3 frequency.py</td>
+              <td>sort</td>
+              <td>uniq -c</td>
+              <td>sort -rn` to give a list of all the words sorted by frequency.</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Make sure you don’t see any unwanted values like punctuation or spaces. If you do, tweak your program to get your desired output.</li>
+      <li>Your next step is to implmement the above UNIX command in your python program using a dictionary.</li>
+    </ul>
+  </li>
   <li>Create a frequency dictionary and add each word to it: <code>freq[word] = 1</code>. Print out the dictionary.</li>
   <li>Count the number of words. Print out the dictionary.</li>
   <li>Sort the dictionary by values before printing. </li>
@@ -150,7 +184,7 @@ while value != sentinel:
 <ul>
   <li>The <a href="https://docs.python.org/3.4/library/stdtypes.html#str.split">string <code>split</code> function</a> allows you to split a line of input into a list of words by splitting the line on spaces.</li>
   <li>Lowercase your words so that “the” is counted the same as “The”.</li>
-  <li>Don’t forget to replace punctuation so “Alan” is counted the same as “Alan,”. I recommend the <a href="http://www.tutorialspoint.com/python/string_replace.htm"><code>replace</code> function</a> for this. You can use a loop on a string to replace many characters.</li>
+  <li>Don’t forget to replace punctuation so “Alan” is counted the same as “Alan,”. I recommend the <a href="http://www.tutorialspoint.com/python/string_replace.htm"><code>replace</code> function</a> for this. You can use a loop on a string to replace many characters.  </li>
   <li>When counting words with a dictionary, you will need to check if the word is in the dictionary already. If it is, just add 1 to the current value. If it’s not, initialize it to 1.</li>
   <li>You can use the built-in <a href="https://wiki.python.org/moin/HowTo/Sorting/">sorted function</a> to sort by values. The <a href="https://docs.python.org/3/library/operator.html#operator.itemgetter"><code>operator.itemgetter</code> function</a> makes a good key. For more information, see <a href="http://stackoverflow.com/a/613218">this answer on stack overflow</a></li>
 </ul>
@@ -204,7 +238,7 @@ Feel free to keep trying until you make Rx if that’s of interest to you.-->
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-04-07 12:18:07 -0400</span></p>
+       Last update on: <span>2015-04-07 12:40:51 -0400</span></p>
     <p style="margin: 0">
       10 modules
       
