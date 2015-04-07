@@ -10,11 +10,12 @@ morea_labels:
 ---
 # Practice WOD9: Sets, Dictionaries, Files, & While
 
-In this practice WOD you will create 4 programs that use data structures (i.e., sets, lists, tuples, and dictionaries), input/output from files, and while loops.
-
-{% include wod-times.html Rx="<45 min" Av="45-90 min" Sd="90-135 min" DNF="135+ min" %}
+In this practice WOD you will create 4 programs that use data structures (i.e., sets, lists, tuples, and dictionaries), input/output from files, and while loops. ***Make sure to read the hints & recommended development steps for each program.***
 
 The last program, frequency.py, will likely take as long to implement as the first 3 programs. I recommend completing the first 3, and watching the video for those if you didn't complete them, *before* attempting frequency.py.
+
+
+{% include wod-times.html Rx="<45 min" Av="45-90 min" Sd="90-135 min" DNF="135+ min" %}
 
 ## while.py
 
@@ -44,8 +45,11 @@ and print the results of the following [set operations](https://docs.python.org/
 ***Recommended Development Steps:***
 
 1. Create the set `s` and print it out
-2. Print out a random sample of 1 element from `s` instead
-3. Use the sentinal template above to create a while loop that prints out a random letter until the value is "A"
+2. Print out a random sample of 1 element from `s` instead (see hints above)
+3. Use the sentinal template in the hints above to create a while loop that prints out a random letter until the value is "A"
+4. Create the set `r` and print out the union with `s`
+5. Print out the intersection and difference
+
 
 ## dictionary.py
 
@@ -85,7 +89,7 @@ Your program should not take in any user input, just read in the hard-coded file
 
 1. Read in the file & print it back out.
 2. Read in the file, split each line on spaces, & print each word on a separate line.
-    * To check your work, use the UNIX command ` python3 frequency.py | sort | uniq -c | sort -rn` to give a list of all the words sorted by frequency. 
+    * To check your work, use the UNIX command `python3 frequency.py | sort | uniq -c | sort -rn` to give a list of all the words sorted by frequency. 
     * Make sure you don't see any unwanted values like punctuation or spaces. If you do, tweak your program to get your desired output.
     * Your next step is to implmement the above UNIX command in your python program using a dictionary.
 3. Create a frequency dictionary and add each word to it: `freq[word] = 1`. Print out the dictionary.
