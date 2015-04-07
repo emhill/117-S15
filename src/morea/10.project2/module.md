@@ -7,6 +7,7 @@ morea_outcomes:
  - outcome-python
  - outcome-7skills
 morea_readings:
+ - board10
 morea_experiences:
  - project2
 morea_assessments:
