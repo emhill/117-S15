@@ -16,6 +16,7 @@ morea_readings:
  - reading-cs5-5
 morea_experiences:
  - ca-7
+ - pwod9
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/dictionary.jpg
