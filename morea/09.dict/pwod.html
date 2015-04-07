@@ -59,7 +59,9 @@
 <div class="container">
   <h1 id="practice-wod9-sets-dictionaries-files--while">Practice WOD9: Sets, Dictionaries, Files, &amp; While</h1>
 
-<p>In this practice WOD you will create 4 programs that use data structures (i.e., sets, lists, tuples, and dictionaries), input/output from files, and while loops.</p>
+<p>In this practice WOD you will create 4 programs that use data structures (i.e., sets, lists, tuples, and dictionaries), input/output from files, and while loops. <strong><em>Make sure to read the hints &amp; recommended development steps for each program.</em></strong></p>
+
+<p>The last program, frequency.py, will likely take as long to implement as the first 3 programs. I recommend completing the first 3, and watching the video for those if you didn’t complete them, <em>before</em> attempting frequency.py.</p>
 
 <p><span class="h4">
   <span style="padding: 2px" class="label label-success">Rx: &lt;45 min</span>
@@ -67,8 +69,6 @@
   <span style="padding: 2px" class="label label-warning">Sd: 90-135 min</span>
   <span style="padding: 2px" class="label label-danger">DNF: 135+ min</span>
 </span></p>
-
-<p>The last program, frequency.py, will likely take as long to implement as the first 3 programs. I recommend completing the first 3, and watching the video for those if you didn’t complete them, <em>before</em> attempting frequency.py.</p>
 
 <h2 id="whilepy">while.py</h2>
 
@@ -105,8 +105,10 @@ while value != sentinel:
 
 <ol>
   <li>Create the set <code>s</code> and print it out</li>
-  <li>Print out a random sample of 1 element from <code>s</code> instead</li>
-  <li>Use the sentinal template above to create a while loop that prints out a random letter until the value is “A”</li>
+  <li>Print out a random sample of 1 element from <code>s</code> instead (see hints above)</li>
+  <li>Use the sentinal template in the hints above to create a while loop that prints out a random letter until the value is “A”</li>
+  <li>Create the set <code>r</code> and print out the union with <code>s</code></li>
+  <li>Print out the intersection and difference</li>
 </ol>
 
 <h2 id="dictionarypy">dictionary.py</h2>
@@ -158,18 +160,7 @@ while value != sentinel:
   <li>Read in the file &amp; print it back out.</li>
   <li>Read in the file, split each line on spaces, &amp; print each word on a separate line.
     <ul>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>To check your work, use the UNIX command ` python3 frequency.py</td>
-              <td>sort</td>
-              <td>uniq -c</td>
-              <td>sort -rn` to give a list of all the words sorted by frequency.</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
+      <li>To check your work, use the UNIX command <code>python3 frequency.py | sort | uniq -c | sort -rn</code> to give a list of all the words sorted by frequency. </li>
       <li>Make sure you don’t see any unwanted values like punctuation or spaces. If you do, tweak your program to get your desired output.</li>
       <li>Your next step is to implmement the above UNIX command in your python program using a dictionary.</li>
     </ul>
@@ -238,7 +229,7 @@ Feel free to keep trying until you make Rx if that’s of interest to you.-->
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-04-07 12:40:51 -0400</span></p>
+       Last update on: <span>2015-04-07 12:45:16 -0400</span></p>
     <p style="margin: 0">
       10 modules
       
