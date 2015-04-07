@@ -1,6 +1,6 @@
 # Computes the average high temperature from a file that contains the daily
 # high temperatures for last year at one location.
-# CSCI 111
+
 
 import sys
 

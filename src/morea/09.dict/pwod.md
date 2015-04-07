@@ -12,7 +12,7 @@ morea_labels:
 
 In this practice WOD you will create 4 programs that use data structures (sets, dictionaries), input/output from files, and while loops.
 
-<!--{% include wod-times.html Rx="<30 min" Av="30-60 min" Sd="60-90 min" DNF="90+ min" %}-->
+{% include wod-times.html Rx="<45 min" Av="45-90 min" Sd="90-135 min" DNF="135+ min" %}
 
 ## while.py
 
@@ -20,9 +20,18 @@ Create a program `while.py` that declares the following set:
 
 `s = {"A", "B", "C", "D", "E"}`
 
-and prints a random element of the set until the first element is printed. In other words, the while loop continues printing letters in the set `s` until "A" is printed. See Step 4 in [Project2's]({{site.baseurl}}/morea/10.project2/Project2.docx) Background Learning for hints on how to randomly print an element from a set.
+and prints a random element of the set until the first element is printed. In other words, the while loop continues printing letters in the set `s` until "A" is printed.
 
-Create another set:
+See Step 4 in [Project2's]({{site.baseurl}}/morea/10.project2/Project2.docx) Background Learning for hints on how to randomly print an element from a set. For more information see the [random sample function](https://docs.python.org/3.4/library/random.html#random.sample).
+
+I recommend following the sentinel while loop design pattern:
+
+    value = initialize
+    while value != sentinel:
+      process value
+      value = updated value
+
+Then, create another set:
 
 `r = {"A", "C", "E", "G"}`
 
@@ -34,7 +43,7 @@ Create a program `dictionary.py` that creates a simple dictionary with two keys,
 
 ***Hints:***
 
- * use `set()` to initialize an empty set
+ * Use the [`set()` function](https://docs.python.org/3.4/library/stdtypes.html#set) to initialize an empty set.
 
 ***Recommended Development Steps:***
 
@@ -42,7 +51,7 @@ Create a program `dictionary.py` that creates a simple dictionary with two keys,
 2. In this loop, print out whether the number is even or odd
 3. Create a set for even and a set for odd numbers. Instead of printing in the loop, add the number to the appropriate set. Print out the sets after the loop.
 4. Replace your set variables by adding them to a dictionary `d` instead. For example, if you had a set named `even`, replace every occurrence of that variable with `d[even]`. Print out the dictionary after your loop to confirm the behavior is the same.
-5. Instead of printing to the screen, print the dictionary to the file `even_odd.txt`.
+5. Instead of printing to the screen, print the dictionary to the file `even_odd.txt`. See Step 3 in [Project2's]({{site.baseurl}}/morea/10.project2/Project2.docx) Background Learning for hints on how to output to a file.
 
 ## count.py
 
@@ -54,6 +63,7 @@ Write a program `count.py` that reads in [the file `turing.txt`](data/turing.txt
   * Using one of the following functions is recommended (but don't use both! they represent different ways of tackling the problem)
     * The [string `split` function](https://docs.python.org/3.4/library/stdtypes.html#str.split) allows you to split a line of input into a list of words by splitting the line on spaces.
     * The [`count` function](http://www.thehelloworldprogram.com/python/python-string-methods/) allows you to count the number of occurrences in a string.
+  * Review the lecture slides or example file programs in the unit for help on reading in a file.
 
 ## frequency.py
 
@@ -73,8 +83,9 @@ Your program should not take in any user input, just read in the hard-coded file
 
   * The [string `split` function](https://docs.python.org/3.4/library/stdtypes.html#str.split) allows you to split a line of input into a list of words by splitting the line on spaces.
   * Lowercase your words so that "the" is counted the same as "The".
+  * Don't forget to replace punctuation so "Alan" is counted the same as "Alan,". I recommend the [`replace` function](http://www.tutorialspoint.com/python/string_replace.htm) for this. You can use a loop on a string to replace many characters.
   * When counting words with a dictionary, you will need to check if the word is in the dictionary already. If it is, just add 1 to the current value. If it's not, initialize it to 1.
-  * You can use the built-in [sorted function](https://wiki.python.org/moin/HowTo/Sorting/) to sort by values. The [`operator.itemgetter` function](https://docs.python.org/3/library/operator.html#operator.itemgetter) makes a good key.
+  * You can use the built-in [sorted function](https://wiki.python.org/moin/HowTo/Sorting/) to sort by values. The [`operator.itemgetter` function](https://docs.python.org/3/library/operator.html#operator.itemgetter) makes a good key. For more information, see [this answer on stack overflow](http://stackoverflow.com/a/613218)
 
 
 ## Demonstration

@@ -1,5 +1,5 @@
 # Opens a file, reads it, and prints out its contents.
-# by Sara Sprenkle
+
 
 FILENAME="data/years.dat"
 
