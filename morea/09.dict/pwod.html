@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> PWOD9 | CSCI 117 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/117-S15/css/themes/spacelab/bootstrap.min.css">
+  <link rel="stylesheet" href="/117-S15/css/style.css">
+  <link rel="stylesheet" href="/117-S15/css/syntax.css">
+  <link rel="shortcut icon" href="/117-S15/favicon.ico" type="image/x-icon" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/117-S15/index.html"> CSCI 117 </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/117-S15/modules/">Modules</a></li>
+
+        
+        
+          <li><a href="/117-S15/outcomes/">Outcomes</a></li>
+        
+        
+          <li><a href="/117-S15/readings/">Readings</a></li>
+        
+        
+          <li><a href="/117-S15/experiences/">Experiences</a></li>
+        
+        
+          <li><a href="/117-S15/assessments/">Assessments</a></li>
+        
+        <li><a href="https://piazza.com/class/i5bhqmcagca5cx">Discussion</a>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="practice-wod9-sets-dictionaries-files--while">Practice WOD9: Sets, Dictionaries, Files, &amp; While</h1>
+
+<p>In this practice WOD you will create 4 programs that use data structures (sets, dictionaries), input/output from files, and while loops.</p>
+
+<!--<span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: <30 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 30-60 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 60-90 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 90+ min</span>
+</span>
+-->
+
+<h2 id="whilepy">while.py</h2>
+
+<p>Create a program <code>while.py</code> that declares the following set:</p>
+
+<p><code>s = {"A", "B", "C", "D", "E"}</code></p>
+
+<p>and prints a random element of the set until the first element is printed. In other words, the while loop continues printing letters in the set <code>s</code> until “A” is printed. See Step 4 in <a href="morea/10.project2/Project2.docx">Project2’s</a> Background Learning for hints on how to randomly print an element from a set.</p>
+
+<p>Create another set:</p>
+
+<p><code>r = {"A", "C", "E", "G"}</code></p>
+
+<p>and print the results of the following <a href="https://docs.python.org/3.4/library/stdtypes.html#set">set operations</a>: union, intersection, and difference.</p>
+
+<h2 id="dictionarypy">dictionary.py</h2>
+
+<p>Create a program <code>dictionary.py</code> that creates a simple dictionary with two keys, even &amp; odd, that stores the set of even &amp; odd numbers from 1 to 10. Print out your dictionary to the file <code>even_odd.txt</code>.</p>
+
+<p><strong><em>Hints:</em></strong></p>
+
+<ul>
+  <li>use <code>set()</code> to initialize an empty set</li>
+</ul>
+
+<p><strong><em>Recommended Development Steps:</em></strong></p>
+
+<ol>
+  <li>Write a loop that prints out the numbers from 1 to 10</li>
+  <li>In this loop, print out whether the number is even or odd</li>
+  <li>Create a set for even and a set for odd numbers. Instead of printing in the loop, add the number to the appropriate set. Print out the sets after the loop.</li>
+  <li>Replace your set variables by adding them to a dictionary <code>d</code> instead. For example, if you had a set named <code>even</code>, replace every occurrence of that variable with <code>d[even]</code>. Print out the dictionary after your loop to confirm the behavior is the same.</li>
+  <li>Instead of printing to the screen, print the dictionary to the file <code>even_odd.txt</code>.</li>
+</ol>
+
+<h2 id="countpy">count.py</h2>
+
+<p>Write a program <code>count.py</code> that reads in the file <a href="data/turing.txt"><code>turing.txt</code></a> and counts the number of occurrences of the word “the”. </p>
+
+<p><strong><em>Hints:</em></strong></p>
+
+<ul>
+  <li>Lowercase your words so that “the” is counted the same as “The”.</li>
+  <li>Using one of the following functions is recommended (but don’t use both! they represent different ways of tackling the problem)
+    <ul>
+      <li>The <a href="https://docs.python.org/3.4/library/stdtypes.html#str.split">string <code>split</code> function</a> allows you to split a line of input into a list of words by splitting the line on spaces.</li>
+      <li>The <a href="http://www.thehelloworldprogram.com/python/python-string-methods/"><code>count</code> function</a> allows you to count the number of occurrences in a string.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="frequencypy">frequency.py</h2>
+
+<p>Write a program <code>frequency.py</code> that reads in the file <a href="data/turing.txt"><code>turing.txt</code></a> and counts the number of occurrences of each word. Your program should print out these word occurrences in sorted order by decreasing frequency value. For example, “the” occurs 10 times and would be printed out before “Alan”, which occurs just once.</p>
+
+<p>Your program should not take in any user input, just read in the hard-coded filename <code>"turing.txt"</code>. You may use any example template to read in the file (for loop, while loop, etc).</p>
+
+<p><strong><em>Recommended Development Steps:</em></strong></p>
+
+<ol>
+  <li>Read in the file &amp; print it back out.</li>
+  <li>Read in the file, split each line on spaces, &amp; print each word on a separate line.</li>
+  <li>Create a frequency dictionary and add each word to it: <code>freq[word] = 1</code>. Print out the dictionary.</li>
+  <li>Count the number of words. Print out the dictionary.</li>
+  <li>Sort the dictionary by values before printing. </li>
+</ol>
+
+<p><strong><em>Hints:</em></strong></p>
+
+<ul>
+  <li>The <a href="https://docs.python.org/3.4/library/stdtypes.html#str.split">string <code>split</code> function</a> allows you to split a line of input into a list of words by splitting the line on spaces.</li>
+  <li>Lowercase your words so that “the” is counted the same as “The”.</li>
+  <li>When counting words with a dictionary, you will need to check if the word is in the dictionary already. If it is, just add 1 to the current value. If it’s not, initialize it to 1.</li>
+  <li>You can use the built-in <a href="https://wiki.python.org/moin/HowTo/Sorting/">sorted function</a> to sort by values. The <a href="https://docs.python.org/3/library/operator.html#operator.itemgetter"><code>operator.itemgetter</code> function</a> makes a good key.</li>
+</ul>
+
+<h2 id="demonstration">Demonstration</h2>
+
+<p><em>Coming soon…</em></p>
+
+<!--Once you've finished doing the WOD a single time, you can watch me do it:
+
+<div class="video-container">
+  <iframe  src="http://www.youtube.com/embed/hsjv5f2DlFk" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Recursive solution to pyramid function in text.py:
+
+<div class="video-container">
+  <iframe  src="http://www.youtube.com/embed/yBrjRTtFiTE" frameborder="0" allowfullscreen></iframe>
+</div>
+
+## Standard WOD Caveats
+
+You’ll learn significantly less from watching me solve the
+WOD if you haven’t attempted the WOD yourself first.
+
+While it's an achievement to finish the WOD no matter how long it takes, you
+might experience "diminishing returns" if you work longer than the DNF
+time. Thus, it might be strategic to stop working at the DNF time and watch
+my solution.
+
+After watching my solution, I recommend that you repeat the WOD if you
+have not achieved at least Av performance. If so, be sure to:
+
+  * Delete your old project so you cannot refer to it;
+  * Don’t look at my screencast while you WOD; and
+  * Reset your timer.
+
+Feel free to keep trying until you make Rx if that’s of interest to you.-->
+
+
+</div>
+
+
+
+<div class="footer-background">
+<footer>
+  <div class="container page-footer">
+    
+      <p><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#104;&#105;&#108;&#108;&#049;&#064;&#100;&#114;&#101;&#119;&#046;&#101;&#100;&#117;">Emily Hill</a> | <a href="http://www.drew.edu/mcs/">Department of Mathematics and Computer Science</a> | <a href="http://www.drew.edu/">Drew University</a> <br />
+<!---emhill@drew.edu<br>--></p>
+
+    
+    <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
+       Last update on: <span>2015-04-07 10:28:58 -0400</span></p>
+    <p style="margin: 0">
+      10 modules
+      
+        | 4 outcomes
+      
+      
+        | 44 readings
+      
+      
+        | 31 experiences
+      
+      
+        | 13 assessments
+      
+    </p>
+  </div>
+</footer>
+</div>
+</body>
+</html>
