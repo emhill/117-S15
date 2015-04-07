@@ -1,5 +1,5 @@
 # Writes content from a user to a file
-# by Sara Sprenkle
+
 
 PROMPT = "Enter the next line in the file: "
 

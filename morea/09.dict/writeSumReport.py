@@ -2,8 +2,7 @@
 # junior, or senior) for this class, creates a report (in a file) that
 # says the year and how many students from that year are in this class, on the
 # same line.
-#
-# CSCI 111
+
 
 FILENAME="data/years.dat"
 REPORTNAME="data/report.dat"

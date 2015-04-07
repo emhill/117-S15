@@ -61,13 +61,12 @@
 
 <p>In this practice WOD you will create 4 programs that use data structures (sets, dictionaries), input/output from files, and while loops.</p>
 
-<!--<span class="h4">
-  <span style="padding: 2px" class="label label-success">Rx: <30 min</span>
-  <span style="padding: 2px" class="label label-info">Av: 30-60 min</span>
-  <span style="padding: 2px" class="label label-warning">Sd: 60-90 min</span>
-  <span style="padding: 2px" class="label label-danger">DNF: 90+ min</span>
-</span>
--->
+<p><span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: &lt;45 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 45-90 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 90-135 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 135+ min</span>
+</span></p>
 
 <h2 id="whilepy">while.py</h2>
 
@@ -75,9 +74,19 @@
 
 <p><code>s = {"A", "B", "C", "D", "E"}</code></p>
 
-<p>and prints a random element of the set until the first element is printed. In other words, the while loop continues printing letters in the set <code>s</code> until “A” is printed. See Step 4 in <a href="/117-S15/morea/10.project2/Project2.docx">Project2’s</a> Background Learning for hints on how to randomly print an element from a set.</p>
+<p>and prints a random element of the set until the first element is printed. In other words, the while loop continues printing letters in the set <code>s</code> until “A” is printed.</p>
 
-<p>Create another set:</p>
+<p>See Step 4 in <a href="/117-S15/morea/10.project2/Project2.docx">Project2’s</a> Background Learning for hints on how to randomly print an element from a set. For more information see the <a href="https://docs.python.org/3.4/library/random.html#random.sample">random sample function</a>.</p>
+
+<p>I recommend following the sentinel while loop design pattern:</p>
+
+<pre><code>value = initialize
+while value != sentinel:
+  process value
+  value = updated value
+</code></pre>
+
+<p>Then, create another set:</p>
 
 <p><code>r = {"A", "C", "E", "G"}</code></p>
 
@@ -90,7 +99,7 @@
 <p><strong><em>Hints:</em></strong></p>
 
 <ul>
-  <li>use <code>set()</code> to initialize an empty set</li>
+  <li>Use the <a href="https://docs.python.org/3.4/library/stdtypes.html#set"><code>set()</code> function</a> to initialize an empty set.</li>
 </ul>
 
 <p><strong><em>Recommended Development Steps:</em></strong></p>
@@ -100,7 +109,7 @@
   <li>In this loop, print out whether the number is even or odd</li>
   <li>Create a set for even and a set for odd numbers. Instead of printing in the loop, add the number to the appropriate set. Print out the sets after the loop.</li>
   <li>Replace your set variables by adding them to a dictionary <code>d</code> instead. For example, if you had a set named <code>even</code>, replace every occurrence of that variable with <code>d[even]</code>. Print out the dictionary after your loop to confirm the behavior is the same.</li>
-  <li>Instead of printing to the screen, print the dictionary to the file <code>even_odd.txt</code>.</li>
+  <li>Instead of printing to the screen, print the dictionary to the file <code>even_odd.txt</code>. See Step 3 in <a href="/117-S15/morea/10.project2/Project2.docx">Project2’s</a> Background Learning for hints on how to output to a file.</li>
 </ol>
 
 <h2 id="countpy">count.py</h2>
@@ -117,6 +126,7 @@
       <li>The <a href="http://www.thehelloworldprogram.com/python/python-string-methods/"><code>count</code> function</a> allows you to count the number of occurrences in a string.</li>
     </ul>
   </li>
+  <li>Review the lecture slides or example file programs in the unit for help on reading in a file.</li>
 </ul>
 
 <h2 id="frequencypy">frequency.py</h2>
@@ -140,8 +150,9 @@
 <ul>
   <li>The <a href="https://docs.python.org/3.4/library/stdtypes.html#str.split">string <code>split</code> function</a> allows you to split a line of input into a list of words by splitting the line on spaces.</li>
   <li>Lowercase your words so that “the” is counted the same as “The”.</li>
+  <li>Don’t forget to replace punctuation so “Alan” is counted the same as “Alan,”. I recommend the <a href="http://www.tutorialspoint.com/python/string_replace.htm"><code>replace</code> function</a> for this. You can use a loop on a string to replace many characters.</li>
   <li>When counting words with a dictionary, you will need to check if the word is in the dictionary already. If it is, just add 1 to the current value. If it’s not, initialize it to 1.</li>
-  <li>You can use the built-in <a href="https://wiki.python.org/moin/HowTo/Sorting/">sorted function</a> to sort by values. The <a href="https://docs.python.org/3/library/operator.html#operator.itemgetter"><code>operator.itemgetter</code> function</a> makes a good key.</li>
+  <li>You can use the built-in <a href="https://wiki.python.org/moin/HowTo/Sorting/">sorted function</a> to sort by values. The <a href="https://docs.python.org/3/library/operator.html#operator.itemgetter"><code>operator.itemgetter</code> function</a> makes a good key. For more information, see <a href="http://stackoverflow.com/a/613218">this answer on stack overflow</a></li>
 </ul>
 
 <h2 id="demonstration">Demonstration</h2>
@@ -193,7 +204,7 @@ Feel free to keep trying until you make Rx if that’s of interest to you.-->
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-04-07 10:33:24 -0400</span></p>
+       Last update on: <span>2015-04-07 12:18:07 -0400</span></p>
     <p style="margin: 0">
       10 modules
       

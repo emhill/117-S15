@@ -1,6 +1,6 @@
 # Given a file of the form <lastname> <year>
 # creates a mapping between the years and the number of students.
-# by CSCI 111
+
 
 FILENAME="data/years.dat"
 

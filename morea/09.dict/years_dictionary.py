@@ -1,6 +1,5 @@
 # Given a file of the form <lastname> <year>
 # creates a mapping between the last names and years
-# by CSCI 111
 
 FILENAME="data/years.dat"
 

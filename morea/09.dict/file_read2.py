@@ -1,6 +1,6 @@
 # Opens a file, reads the file one line at a time, and prints the
-# contents,
-# by Sara Sprenkle
+# contents
+
 
 FILENAME="data/years.dat"
 
