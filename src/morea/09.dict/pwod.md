@@ -107,15 +107,11 @@ Your program should not take in any user input, just read in the hard-coded file
 
 ## Demonstration
 
-*Coming soon...*
+<!--*Coming soon...*-->
 
-<!--Once you've finished doing the WOD a single time, you can watch me do it:
+Once you've finished doing the WOD a single time, you can watch me do it:
 
-{% include youtube.html id="hsjv5f2DlFk" %}
+{% include youtube.html id="FMj6DvHxJw8" %}
 
-Recursive solution to pyramid function in text.py:
-
-{% include youtube.html id="yBrjRTtFiTE" %}
-
-{% include wod-warning.html %}-->
+{% include wod-warning.html %}
 
