@@ -20,7 +20,7 @@ Create a program `while.py` that declares the following set:
 
 `s = {"A", "B", "C", "D", "E"}`
 
-and prints a random element of the set until the first element is printed. In other words, the while loop continues printing letters in the set `s` until "A" is printed. See Step 4 in [Project2's](morea/10.project2/Project2.docx) Background Learning for hints on how to randomly print an element from a set.
+and prints a random element of the set until the first element is printed. In other words, the while loop continues printing letters in the set `s` until "A" is printed. See Step 4 in [Project2's](/morea/10.project2/Project2.docx) Background Learning for hints on how to randomly print an element from a set.
 
 Create another set:
 
