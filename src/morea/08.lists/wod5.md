@@ -26,8 +26,8 @@ morea_labels:
 Write a function `mangle` that takes a string as a parameter and returns the string after performing the following operations:
 
   1. converting the string to all upper case letters
-  * removing any digits
-  * removing the last character
+  1. removing any digits
+  1. removing the last character
   
 For example:
 
