@@ -18,6 +18,10 @@ To explore and implement the topics we will be discussing in class, you will nee
 
 ### Syllabus
 [Overview of course policies]({{site.baseurl}}/morea/materials/Syllabus.pdf)
+**Office Hours:**
+  * Tuesday 12:30-1:30
+  * Wednesday 12:30-1:30
+  * Thursday 2:00-3:00
 
 ### Course Schedule
 Tentative [course calendar](https://www.dropbox.com/s/5kdnytb30ipwqix/calendar.xlsx?dl=0), updated weekly.

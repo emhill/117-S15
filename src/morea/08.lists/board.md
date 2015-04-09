@@ -29,6 +29,10 @@ morea_sort_order: 0
 
 [Python tutor](http://www.pythontutor.com/visualize.html#mode=edit) can help you visualize the order statements in your python programs are executed.
 
+Example list difference using vectors from physics:
+
+<a href="lists.JPG"><img src="lists.JPG" width="500"/></a>
+
 ### Python Interactive Session on Lists
 
     admins-MacBook-Pro$ python3

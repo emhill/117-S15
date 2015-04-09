@@ -15,6 +15,22 @@ morea_sort_order: 0
  * [ascii_dictionary.py](ascii_dictionary.py)
  * [using_dictionary.py](using_dictionary.py)
 
+How mant items in a list do you need to check when using `in`?
+
+<a href="guess.JPG"><img src="guess.JPG" width="300"/></a>
+
+A dictionary maps keys to values:
+
+<a href="dict.JPG"><img src="dict.JPG" width="300"/></a>
+
+Differences between python data structures: tuples, lists, dictionaries, sets
+
+<a href="table.JPG"><img src="table.JPG" width="500"/></a>
+
+Equivalen for loop to a list comprehension:
+
+<a href="lc.JPG"><img src="lc.JPG" width="300"/></a>
+
 ## Examples from 4/1
 
  * [while.py](while.py)
