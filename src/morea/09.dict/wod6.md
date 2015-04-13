@@ -28,7 +28,7 @@ Write a program `vowels.py` that declares the following set:
 
 `letters = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"}`
 
-and creates a simple dictionary with two keys, vowel & consonant, that stores the set of vowels and the set of consonants from the above set of letters. You should **not** manually create the set of vowels and consonants, but program this in automatically, using only the set of letters above. Print out your dictionary to the file `letters.txt`.
+and creates a simple dictionary with two keys, vowel & consonant, that stores the set of vowels and the set of consonants from the above set of letters. You should **not** manually create the set of consonants. Print out your dictionary to the file `letters.txt`.
 
 Your program should also print the following (**NOT** to the file):
 
