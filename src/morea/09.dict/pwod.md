@@ -77,7 +77,17 @@ Write a program `count.py` that reads in [the file `turing.txt`](data/turing.txt
   * Using one of the following functions is recommended (but don't use both! they represent different ways of tackling the problem)
     * The [string `split` function](https://docs.python.org/3.4/library/stdtypes.html#str.split) allows you to split a line of input into a list of words by splitting the line on spaces.
     * The [`count` function](http://www.thehelloworldprogram.com/python/python-string-methods/) allows you to count the number of occurrences in a string.
-  * Review the lecture slides or example file programs in the unit for help on reading in a file.
+  * Review the lecture slides or example file programs in the unit for help on reading in a file, and [see this online tutorial](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python)
+
+***Recommended Development Steps:***
+
+1. Download [`turing.txt`](data/turing.txt) & put it in the same folder as `count.py`.
+2. Read in the file & print it out (either line by line or as one big string)
+3. Print out the number of 'the's using the count function, **OR** complete the following steps.
+4. Print the line split on spaces.
+5. Print just a words on each line.
+6. Only print out "the".
+7. Count the number of times you see "the" (create a variable or a list) and print it out.
 
 ## frequency.py
 
