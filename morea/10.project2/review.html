@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> PWOD4 | CSCI 117 </title>
+  <title> PWOD10 | CSCI 117 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -57,75 +57,73 @@
 
 
 <div class="container">
-  <h1 id="practice-wod4-input--ifs">Practice WOD4: Input &amp; Ifs</h1>
+  <h1 id="practice-wod10-final-exam-review">Practice WOD10: Final Exam Review</h1>
 
-<p>In this practice WOD you will create 3 programs that explore getting user input and using if statements.</p>
+<!--<span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: <45 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 45-90 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 90-135 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 135+ min</span>
+</span>
+-->
 
-<p><span class="h4">
-  <span style="padding: 2px" class="label label-success">Rx: &lt;15 min</span>
-  <span style="padding: 2px" class="label label-info">Av: 15-30 min</span>
-  <span style="padding: 2px" class="label label-warning">Sd: 30-45 min</span>
-  <span style="padding: 2px" class="label label-danger">DNF: 45+ min</span>
-</span></p>
+<h2 id="statpy">stat.py</h2>
 
-<h2 id="temperaturepy">temperature.py</h2>
+<p>Create a program <code>stat.py</code> that finds the mean, median, and mode in a list of numbers read in from a file <code>numbers.txt</code>. Some definitions:</p>
 
-<p>Create a program that asks the user for the current temperature and outputs what they should wear. Your program should meet the following requirements:</p>
+<ul>
+  <li><strong>mean</strong>: the sum of the numbers divided by the number of numbers.</li>
+  <li><strong>median</strong>: the middle number in a sorted list of numbers. If there is an even number of numbers, the median is the average of the middle two numbers.</li>
+  <li><strong>mode</strong>: the most frequently occurring number.</li>
+</ul>
+
+<p><strong><em>Recommended Development Steps:</em></strong></p>
 
 <ol>
-  <li>Has a variable, <code>temp</code>, that stores the temperature input from the user</li>
-  <li>Requests the user to enter the temperature</li>
-  <li>Displays the following information based on the temperature range:
+  <li>Instead of reading in from a file, create a list of numbers with <code>list(range(1,11))</code> and then <code>append(1)</code> to your list so you will have a mode. Print out the numbers.</li>
+  <li>Print out the mean for the list of numbers.</li>
+  <li>Print out the median for the list of numbers.</li>
+  <li>Print out the mode for the list of numbers.</li>
+  <li>Append another <code>1</code> to your list and print out the mean, median, and mode.</li>
+  <li>Read in a file <code>numbers.txt</code>, which should have a number entered one per line.</li>
+  <li>Write functions to read in the data from a file &amp; calculate each statistic:
     <ul>
-      <li><strong>Above 90</strong>: “Whoa, it’s boiling!”</li>
-      <li><strong>Above or equal to 80</strong>: “It’s getting hot”</li>
-      <li><strong>Below 80</strong>: “A perfect day”</li>
-      <li><strong>Below 60</strong>: “Don’t forget your sweater”</li>
-      <li><strong>Below freezing</strong>: “Brrr, you need a coat!”</li>
+      <li><code>file_input(filename)</code>: returns the list of numbers read in from file filename</li>
+      <li><code>mean(numbers)</code>: takes a list of numbers as a parameter and returns their mean</li>
+      <li><code>median(numbers)</code>: takes a list of numbers as a parameter and returns their median</li>
+      <li><code>mode(numbers)</code>: takes a list of numbers as a parameter and returns their mode</li>
     </ul>
   </li>
 </ol>
 
-<p>Only one phrase should be displayed to the user for any given temperature input. Make sure to test your program with multiple temperatures.</p>
-
-<h2 id="absolutevaluepy">absolute_value.py</h2>
-
-<p>Create a program that asks the user for a number and prints its absolute value <strong><em>without</em></strong> using any python functions (in other words, you should use an if statement).</p>
-
-<h2 id="ismultiplepy">is_multiple.py</h2>
-
-<p>Create a program that asks the user for a whole number and prints whether it’s a multiple of 5. Make sure to test the program by inputting numbers that are multiples of 5 as well as those that aren’t multiples of 5. (<em>Hint</em>: what arithmetic operator can you use to determine whether a number is a multiple of another?)</p>
-
 <h2 id="demonstration">Demonstration</h2>
 
-<!--*Coming soon...*-->
+<p><em>Coming soon…</em></p>
 
-<p>Once you’ve finished doing the WOD a single time, you can watch me do it:</p>
+<!--Once you've finished doing the WOD a single time, you can watch me do it:
 
 <div class="video-container">
-  <iframe src="http://www.youtube.com/embed/gHFuYMWDa28" frameborder="0" allowfullscreen=""></iframe>
+  <iframe  src="http://www.youtube.com/embed/FMj6DvHxJw8" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<h2 id="standard-wod-caveats">Standard WOD Caveats</h2>
+## Standard WOD Caveats
 
-<p>You’ll learn significantly less from watching me solve the
-WOD if you haven’t attempted the WOD yourself first.</p>
+You’ll learn significantly less from watching me solve the
+WOD if you haven’t attempted the WOD yourself first.
 
-<p>While it’s an achievement to finish the WOD no matter how long it takes, you
-might experience “diminishing returns” if you work longer than the DNF
+While it's an achievement to finish the WOD no matter how long it takes, you
+might experience "diminishing returns" if you work longer than the DNF
 time. Thus, it might be strategic to stop working at the DNF time and watch
-my solution.</p>
+my solution.
 
-<p>After watching my solution, I recommend that you repeat the WOD if you
-have not achieved at least Av performance. If so, be sure to:</p>
+After watching my solution, I recommend that you repeat the WOD if you
+have not achieved at least Av performance. If so, be sure to:
 
-<ul>
-  <li>Delete your old project so you cannot refer to it;</li>
-  <li>Don’t look at my screencast while you WOD; and</li>
-  <li>Reset your timer.</li>
-</ul>
+  * Delete your old project so you cannot refer to it;
+  * Don’t look at my screencast while you WOD; and
+  * Reset your timer.
 
-<p>Feel free to keep trying until you make Rx if that’s of interest to you.</p>
+Feel free to keep trying until you make Rx if that’s of interest to you.-->
 
 </div>
 
