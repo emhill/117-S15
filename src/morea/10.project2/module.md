@@ -10,6 +10,7 @@ morea_readings:
  - board10
 morea_experiences:
  - project2
+ - pwod10
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/materials/sn.jpg
