@@ -15,7 +15,7 @@ morea_labels:
 
 ## stat.py
 
-Create a program `stat.py` that finds the mean, median, and mode in a list of numbers read in from a file `numbers.txt`. Some definitions:
+Create a program `stat.py` that finds the mean, median, and mode in a list of numbers read in from a file `numbers.txt`. Do **not** use the python statistics package. Some definitions:
 
   * **mean**: the sum of the numbers divided by the number of numbers.
   * **median**: the middle number in a sorted list of numbers. If there is an even number of numbers, the median is the average of the middle two numbers.
