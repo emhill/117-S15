@@ -34,6 +34,21 @@ Create a program `stat.py` that finds the mean, median, and mode in a list of nu
     * `mean(numbers)`: takes a list of numbers as a parameter and returns their mean
     * `median(numbers)`: takes a list of numbers as a parameter and returns their median
     * `mode(numbers)`: takes a list of numbers as a parameter and returns their mode
+ 
+***Hints:***
+
+  * There are two different ways to sort a list: `sorted` and `sort`. The function `sorted(list)` returns a sorted version of the list without modifying the original, whereas `list.sort()` doesn't return anything but does change the original:
+  
+		>>> list = [5, 7, 5, 1, 5]
+		>>> sorted(list)
+		[1, 5, 5, 5, 7]
+		>>> print(list)
+		[5, 7, 5, 1, 5]
+		>>> list.sort()
+		>>> print(list)
+		[1, 5, 5, 5, 7]
+
+  * Make sure you don't have any blank lines in your file.
 
 ## Demonstration
 
