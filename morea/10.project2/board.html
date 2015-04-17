@@ -74,6 +74,23 @@
 
 <p><a href="friend-rec.JPG"><img src="friend-rec.JPG" width="300" /></a></p>
 
+<h2 id="in-class-417">In class 4/17</h2>
+
+<pre><code>def mean(numbers):
+	return sum(numbers) / len(numbers)
+
+
+#numbers = list(range(1,11))
+numbers = []
+file = open("numbers.txt")
+for line in file:
+	numbers.append(eval(line))
+file.close()
+
+print(numbers)
+print("Mean: ", mean(numbers) )
+</code></pre>
+
 </div>
 
 
@@ -87,7 +104,7 @@
 
     
     <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
-       Last update on: <span>2015-04-17 11:11:48 -0400</span></p>
+       Last update on: <span>2015-04-17 15:01:30 -0400</span></p>
     <p style="margin: 0">
       10 modules
       
